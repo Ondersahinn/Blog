@@ -1,0 +1,10 @@
+{
+    "content_type": {
+      "application_json": { "content-type": "application/json" },
+      "text_plain": { "content-type": "text/plain" },
+      "multipart_form-data": { "content-type": "multipart/form-data" }
+    },
+    "accept": {
+      "application_json": { "content-type": "application/json" }
+    }
+  }
