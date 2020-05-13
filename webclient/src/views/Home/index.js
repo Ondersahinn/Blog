@@ -1,8 +1,11 @@
 import React from 'react';
 import AppBar from '../../components/AppBar/Appbar';
-import { accountRoutes , userRoutes} from '../../routes';
-import AppContent from './AppContent'
+import { accountRoutes, userRoutes } from '../../routes';
+import AppContent from './AppContent';
+import Footer from '../../components/LandingPage/Footer';
 import 'antd/dist/antd.css';
+import '../../App.less';
+
 
 class Home extends React.Component {
   state = {
@@ -15,18 +18,18 @@ class Home extends React.Component {
     this.setState({ searchText });
   };
 
- componentDidMount() {
+  componentDidMount() {
     const userId = JSON.parse(localStorage.getItem('userId'));
     let isLoggedIn;
     let routes;
-    if(userId !== null){
+    if (userId !== null) {
       isLoggedIn = true;
       routes = userRoutes;
-    }else {
-      isLoggedIn= false;
-      routes=accountRoutes;
+    } else {
+      isLoggedIn = false;
+      routes = accountRoutes;
     }
-    this.setState({ routes, isLoggedIn})
+    this.setState({ routes, isLoggedIn })
   }
 
   onLogout = status => {
@@ -43,7 +46,7 @@ class Home extends React.Component {
   };
 
   render() {
-    const {  routes, isLoggedIn, visibility } = this.state;
+    const { routes, isLoggedIn, visibility } = this.state;
     return (
       <div>
         <AppBar
@@ -53,12 +56,12 @@ class Home extends React.Component {
           onLogout={this.onLogout}
           visibility={visibility}
         />
-        <AppContent  
-        routes={routes}
-        visibility={visibility}
-        setVisibility={this.setVisibility}
-        onLogout={this.onLogout}
-        searchText='*'/> 
+        <AppContent
+          routes={routes}
+          visibility={visibility}
+          setVisibility={this.setVisibility}
+          onLogout={this.onLogout}
+          searchText='*' />
       </div>
     );
   }

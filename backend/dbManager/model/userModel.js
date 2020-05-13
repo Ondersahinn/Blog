@@ -19,7 +19,7 @@ var User = mongoose.Schema({
     required: true,
   },
   profileImage: {
-    type: String,
+    type: String, 
   },
   gender: {
     type: String,

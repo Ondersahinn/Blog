@@ -10,8 +10,8 @@ export const createUser = async data => {
   const parsedResult = parseResult(result);
   return parsedResult;
 };
-export const updateUser = async (UserId, data) => {
-  const url = `${'http://localhost:3008/api/v1/user'}/${UserId}`;
+export const updateUser = async (userId, data) => {
+  const url = `${'http://localhost:5000/routes/api/v1/user'}/${userId}`;
   const config = headers.content_type.application_json;
   const result = await putRequest(url, data, config);
   const parsedResult = parseResult(result);

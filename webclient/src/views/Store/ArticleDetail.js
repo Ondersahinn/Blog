@@ -1,9 +1,9 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import { searchArticleById } from '../../api/service/articleService';
 import { Row, Col } from 'antd';
 import { Avatar } from 'antd';
-import { FacebookFilled, InstagramOutlined } from '@ant-design/icons';
+import { FacebookFilled, InstagramOutlined,TwitterCircleFilled,LinkedinOutlined } from '@ant-design/icons';
 import { Editor } from 'react-draft-wysiwyg';
 import { EditorState, ContentState } from 'draft-js';
 import htmlToDraft from 'html-to-draftjs';
@@ -26,20 +26,35 @@ class ArticleDetail extends React.Component {
         });
     }
 
+    userProfile = data => {
+        return (
+            <div  style={{ marginBottom: '6vh', marginTop:'2vh' }}>
+                <h1>{data.title}</h1>
+                <Avatar size={64} src={data.ownerId.profileImage } />
+                <span style={{ paddingLeft:'1vw',fontWeight: 'bold', fontSize:'20px' }}> {(data.ownerId.name + ' ' + data.ownerId.surname)}</span>
+                <span style={{ float: 'right', marginTop: '6vh' }}>
+                    <a style={{ color: '#000000', fontSize: '22px' }} target="_blank" href={data.ownerId.instagram} ><InstagramOutlined /></a>
+                    <a style={{ color: '#000000', fontSize: '22px' }} target="_blank" href={data.ownerId.facebook} ><FacebookFilled/></a>
+                    <a style={{ color: '#000000', fontSize: '22px' }} target="_blank" href={data.ownerId.twitter} ><TwitterCircleFilled /></a>
+                    <a style={{ color: '#000000', fontSize: '22px' }} target="_blank" href={data.ownerId.linkedin} ><LinkedinOutlined /></a>
+                </span>
+            </div>
+        );
+
+
+    }
+
     render() {
         const { data } = this.state
         const contentBlock = htmlToDraft(data.length > 0 ? data[0].description : '');
         const contentState = ContentState.createFromBlockArray(contentBlock.contentBlocks);
         const editorState = EditorState.createWithContent(contentState);
-        const userImage = require('../../images/user.jpeg')
+        
         return (
             <div>
                 <Row>
                     <Col span={12} offset={6}>
-                        <h1>{data.length > 0 ? data[0].title : ''}</h1>
-                        <Avatar size={64} src={userImage}/>
-                        <span> {data.length > 0 ? (data[0].ownerId.name + ' ' + data[0].ownerId.surname) : ''}</span>
-                        <span style={{ float: 'right', marginTop: '6vh' }}><InstagramOutlined style={{ color: '093B7F', fontSize: '20px' }} /> <FacebookFilled style={{ color: '093B7F', fontSize: '20px' }} /></span>
+                        {data.length > 0 ? this.userProfile(data[0]) : ''}
                         <Editor
                             editorState={editorState}
                             readOnly

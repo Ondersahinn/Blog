@@ -13,24 +13,22 @@ const ArticleCard = props => {
     const editorState = EditorState.createWithContent(contentState);
     const currentContent = editorState.getCurrentContent().getPlainText('');
     const descriptionFormat =
-    currentContent.length > 67 ? `${currentContent.substring(0, 67)} ...` : currentContent;
+        currentContent.length > 67 ? `${currentContent.substring(0, 67)} ...` : currentContent;
 
     return (
-        <div>
-            <Card
-                hoverable
-                style={{ width: 240, marginLeft: '10%', float: "left" }}
-                cover={<img alt="example" src="https://www.egepostasi.com/haber_resim/izmir-korfezi-nde-yelken-soleni-168748.jpg" />}>
+        <Card
+            hoverable
+            style={{ width: 240, marginLeft: '10%', float: "left" }}
+            cover={<img alt="example" src="https://www.egepostasi.com/haber_resim/izmir-korfezi-nde-yelken-soleni-168748.jpg" />}>
 
-                <Meta title={title} />
-                <div style={{ width: '100%', height: 1, marginTop: '10%', borderBottom: '1px solid grey' }}></div>
+            <Meta title={title} />
+            <div style={{ width: '100%', height: 1, marginTop: '10%', borderBottom: '1px solid grey' }}></div>
 
-                <p>{descriptionFormat}</p>
+            <p>{descriptionFormat}</p>
 
-                <span style={{ float: 'left' }}>{subject}</span>
-                <span style={{ float: 'right' }}><ClockCircleOutlined />   {createDateTime}</span>
-            </Card>
-        </div>
+            <span style={{ float: 'left' }}>{subject}</span>
+            <span style={{ float: 'right' }}><ClockCircleOutlined />   {createDateTime}</span>
+        </Card>
     );
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ArticleCard from '../ArticleCard';
+import { Row, Col } from 'antd';
 import { searchAllArticles } from '../../api/service/articleService';
 
 
@@ -25,8 +26,8 @@ class Store extends React.Component {
         const { loading, articles } = this.state;
         const currentArticles = articles.map(article => {
             return (
-                <div>
-                    <Link  to={`/articles/${article._id}`} key={`Link${article._id}`}>
+                <Col className="gutter-row" span={6}>
+                    <Link to={`/articles/${article._id}`} key={`Link${article._id}`}>
                         <ArticleCard
                             title={article.title}
                             subject={article.subject}
@@ -34,24 +35,24 @@ class Store extends React.Component {
                             createDateTime={article.createDateTime}>
                         </ArticleCard>
                     </Link>
-                </div>
+                </Col>
             );
+        });
 
-        })
         if (loading)
             return <div>loading</div>
 
 
         return (
-            <div>
+            <div >
                 <React.Fragment key={currentArticles.length}>
-                    <div>
+                    <Row  style={{ marginLeft:0, marginRight:0}}  gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                         {currentArticles.length > 0 ? (
                             currentArticles
                         ) : (
                                 <p>No course Found</p>
                             )}
-                    </div>
+                    </Row>
                 </React.Fragment>
 
             </div>

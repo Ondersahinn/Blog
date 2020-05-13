@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 var Article = require('./model/articleModel')
 var User = require('./model/userModel')
+var fs = require('fs');
 
 
 module.exports = () => {
@@ -16,6 +17,17 @@ module.exports = () => {
     mongoose.Promise = global.Promise;
 }
 
+// var imgPath = './views/user.jpg';
+
+// const user = new User();
+// user.name='İbrahim';
+// user.surname='Sahin';
+// user.email='ibrahim@gmail.com';
+// user.password='12345';
+// user.gender='male';
+// user.profileImage.data=fs.readFileSync(imgPath);
+// user.profileImage.connectType='image/png';
+// user.save();
 
 // const article = new Article();
 // article.subject = 'Yazılım';

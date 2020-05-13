@@ -9,17 +9,17 @@ const BannerCarousel = () => {
         <Carousel autoplay>
             <div>
                 <h3>
-                    <img className="d-block w-100" src={wall1} alt="Second slide" />
+                    <img width="100%" className="d-block w-100" src={wall1} alt="Second slide" />
                 </h3>
             </div>
             <div>
                 <h3>
-                    <img className="d-block w-100" src={wall2} alt="Second slide" />
+                    <img width="100%" className="d-block w-100" src={wall2} alt="Second slide" />
                 </h3>
             </div>
             <div>
                 <h3>
-                    <img className="d-block w-100" src={wall1} alt="Second slide" />
+                    <img width="100%" className="d-block w-100" src={wall1} alt="Second slide" />
                 </h3>
             </div>
 

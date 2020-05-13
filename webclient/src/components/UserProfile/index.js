@@ -20,7 +20,7 @@ class UserProfile extends React.Component {
         const userId =JSON.parse(localStorage.getItem('userId'));
         const userImage = localStorage.getItem('userImageUrl');
         const {userInfo} = this.state;
-        const newUser =[ {
+        const newUser = {
             email:userInfo.email,
             name:userInfo.name,
             password:userInfo.password,
@@ -30,7 +30,7 @@ class UserProfile extends React.Component {
             twitter:data.user.twitter,
             linkedin:data.user.linkedin,
             profileImage:userImage
-        }]
+        }
         if(userId !==undefined){
             const res = await updateUser(userId,newUser);
             console.log(res)
@@ -40,7 +40,7 @@ class UserProfile extends React.Component {
     render() {
         const {userInfo} = this.state;
         return (
-            <div style={{ border: '1px solid grey', width: '80%', height: '100%', backgroundColor: '#EAEDED', padding: '10px 10px 0 20px', marginLeft: 'auto', marginRight: 'auto', marginTop: '2%' }}>
+            <div style={{ border: '1px solid grey', width: '80%', height: '100%', padding: '10px 10px 0 20px', marginLeft: 'auto', marginRight: 'auto', marginTop: '2%' }}>
                 <ProfileUser
                     userInfo = {userInfo}
                     createDate ={data => this.createDate(data)}
