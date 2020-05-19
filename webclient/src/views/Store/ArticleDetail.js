@@ -6,6 +6,8 @@ import { Avatar } from 'antd';
 import { FacebookFilled, InstagramOutlined,TwitterCircleFilled,LinkedinOutlined } from '@ant-design/icons';
 import { Editor } from 'react-draft-wysiwyg';
 import { EditorState, ContentState } from 'draft-js';
+import Footer from '../../components/LandingPage/Footer'
+import Comment from '../../components/Comment'
 import htmlToDraft from 'html-to-draftjs';
 
 class ArticleDetail extends React.Component {
@@ -46,6 +48,7 @@ class ArticleDetail extends React.Component {
 
     render() {
         const { data } = this.state
+        const { id: articleId } = this.props.match.params;
         const contentBlock = htmlToDraft(data.length > 0 ? data[0].description : '');
         const contentState = ContentState.createFromBlockArray(contentBlock.contentBlocks);
         const editorState = EditorState.createWithContent(contentState);
@@ -65,6 +68,8 @@ class ArticleDetail extends React.Component {
                         />
                     </Col>
                 </Row>
+                <Comment articleId ={articleId} />
+                <Footer />
 
             </div>
         )

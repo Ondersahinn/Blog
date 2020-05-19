@@ -22,7 +22,7 @@ export const accountRoutes = [
     },
     {
         path: '/login',
-        name: 'Sign In',
+        name: 'Login',
         icon: Progress,
         component: Login,
         layout: '/home',
@@ -33,7 +33,7 @@ export const accountRoutes = [
         icon: Progress,
         component: ArticleDetail,
         layout: '/home',
-      },
+    },
 ]
 
 export const userRoutes = [

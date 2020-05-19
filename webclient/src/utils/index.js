@@ -5,6 +5,11 @@ export const formatDate = date => {
     const formattedDate = format(date, 'MM/dd/yyyy');
     return formattedDate;
   };
+  
+export const commentFormatDate = date => {
+  const formattedDate = format(date, 'DD-MM-YYYY HH:mm:ss');
+  return formattedDate;
+};
 
  export function getBase64(file) {
   return new Promise((resolve, reject) => {

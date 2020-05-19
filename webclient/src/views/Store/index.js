@@ -26,7 +26,7 @@ class Store extends React.Component {
         const { loading, articles } = this.state;
         const currentArticles = articles.map(article => {
             return (
-                <Col className="gutter-row" span={6}>
+                <Col className="gutter-row" key={article._id} span={6}>
                     <Link to={`/articles/${article._id}`} key={`Link${article._id}`}>
                         <ArticleCard
                             title={article.title}

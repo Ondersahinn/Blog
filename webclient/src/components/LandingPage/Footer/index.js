@@ -10,16 +10,16 @@ const Footer = () => {
         <div style={{ position: 'relative', bottom: '0', width: '99.9%', padding: '15px', backgroundColor: '#000' }}>
             <Row justify="center" style={{width:'90%',marginLeft:'5%',borderBottom:'1px solid grey'}} gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                 <Col className="gutter-row" span={8}>
-                    <p style={{ color: 'white' }}><h3 style={{ color: 'white' }}>Sosyal Blog Platformunu Keşfedin</h3>
-                    Kelimelerin önemli olduğu platforma hoş geldin. Söz uçar yazı kalır anılarını gezilerini, tecrubelerini paylaş.                 </p>
+                    <h3 style={{ color: 'white' }}>Sosyal Blog Platformunu Keşfedin</h3>
+                    <p style={{ color: 'white' }}> Kelimelerin önemli olduğu platforma hoş geldin. Söz uçar yazı kalır anılarını gezilerini, tecrubelerini paylaş.                 </p>
                 </Col>
                 <Col className="gutter-row" span={8}>
-                    <p style={{ color: 'white' }}><h3 style={{ color: 'white' }}>Sosyal Blog Platformunu Keşfedin</h3>
-                    Kelimelerin önemli olduğu platforma hoş geldin. Söz uçar yazı kalır anılarını gezilerini, tecrubelerini paylaş.                 </p>
+                    <h3 style={{ color: 'white' }}>Sosyal Blog Platformunu Keşfedin</h3>
+                    <p style={{ color: 'white' }}>Kelimelerin önemli olduğu platforma hoş geldin. Söz uçar yazı kalır anılarını gezilerini, tecrubelerini paylaş.                 </p>
                 </Col>
                 <Col className="gutter-row" span={8}>
-                    <p style={{ color: 'white' }}><h3 style={{ color: 'white' }}>Sosyal Blog Platformunu Keşfedin</h3>
-                    Kelimelerin önemli olduğu platforma hoş geldin. Söz uçar yazı kalır anılarını gezilerini, tecrubelerini paylaş.                 </p>
+                    <h3 style={{ color: 'white' }}>Sosyal Blog Platformunu Keşfedin</h3>
+                    <p style={{ color: 'white' }}>Kelimelerin önemli olduğu platforma hoş geldin. Söz uçar yazı kalır anılarını gezilerini, tecrubelerini paylaş.                 </p>
                 </Col>
             </Row>
             <div style={{width:'90%',marginLeft:'5%'}}>
