@@ -10,6 +10,8 @@ var bodyParser = require('body-parser');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/userManager/apiRoutes');
 var articleApiRoutes = require('./routes/articleManager/apiRoutes');
+var commentApiRoutes = require('./routes/commentManager/apiRoutes');
+
 
 var app = express();
 
@@ -28,6 +30,8 @@ app.use(cors());
 app.use('/', indexRouter);
 app.use('/routes/api/v1', usersRouter);
 app.use('/routes/api/v1', articleApiRoutes);
+app.use('/routes/api/v1', commentApiRoutes);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

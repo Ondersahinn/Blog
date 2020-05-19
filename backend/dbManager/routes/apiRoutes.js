@@ -10,6 +10,7 @@ router.get('/', function(req, res) {
 
 const ArticleController = require('../controllers/articleController');
 const UserController = require('../controllers/userController');
+const CommentController = require('../controllers/commentController');
 
 router
   .route('/article')
@@ -29,7 +30,13 @@ router
 router.route('/user/:id').get(UserController.searchById);
 router.route('/user/login').post(UserController.login);
 
-
+router
+  .route('/comment')
+  .post(CommentController.new)
+  .delete(CommentController.delete)
+  .get(CommentController.searchAll)
+  .put(CommentController.update);
+router.route('/comment/:id').get(CommentController.searchById);
 
 module.exports = router;
 
