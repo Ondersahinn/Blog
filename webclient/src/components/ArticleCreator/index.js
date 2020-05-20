@@ -17,7 +17,7 @@ const ArticleCreator = props => {
             }
         }
         catch (error) {
-            console.log('Kaydetme başarısız')
+            message.error('Yazınız kayıt edildi');
         }
     }
 

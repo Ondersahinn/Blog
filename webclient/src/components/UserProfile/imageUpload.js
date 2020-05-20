@@ -19,7 +19,6 @@ class PicturesWall extends React.Component {
     if (!file.url && !file.preview) {
       file.preview = await getBase64(file.originFileObj);
     }
-    console.log(file.url || file.preview)
     this.setState({
       previewImage: file.url || file.preview,
       previewVisible: true,
@@ -30,7 +29,6 @@ class PicturesWall extends React.Component {
   handleChange = async ({ fileList }) => {
     if (fileList.length > 0) {
       const imageUrl = await getBase64(fileList[0].originFileObj);
-      console.log(imageUrl)
       localStorage.setItem('userImageUrl', imageUrl);
     }
     this.setState({ fileList });

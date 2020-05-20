@@ -8,7 +8,6 @@ const UserForm = props => {
 
     const onFinish = values => {
         props.createDate(values)
-        console.log(values);
     };
 
     const layout = {

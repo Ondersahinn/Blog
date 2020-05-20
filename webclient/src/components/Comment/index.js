@@ -1,4 +1,4 @@
-import React , { useState, useEffect } from 'react';
+import React  from 'react';
 import { withRouter } from 'react-router-dom';
 import CommentList from './commentList'
 import {createComment, searchAllComments} from '../../api/service/commentService'
@@ -7,11 +7,17 @@ import {formatDate} from '../../utils'
 import {searchUserById} from '../../api/service/userService'
 import CommentForm from './commentForm';
 
-const Comment = props => {
-    const [user, setUser] = useState([]);
-    const [comment, setComment] = useState([]);
+class Comment extends React.Component {
+    state={user: [], comment:[]} 
 
-    const handeleSumbit = async (data) => {
+    async componentDidMount() {
+        this.getUser();
+        this.getComment();
+        
+    }
+
+
+    handeleSumbit = async (data) => {
         try {
             if (data !== undefined) {
                 const userId = JSON.parse(localStorage.getItem('userId'));
@@ -19,7 +25,7 @@ const Comment = props => {
                 const commentData = {
                     content: data,
                     ownerId: userId,
-                    articleId: props.articleId,
+                    articleId: this.props.articleId,
                     createDateTime: createDateTime,
                 }
                 const res = await createComment(commentData);
@@ -30,39 +36,35 @@ const Comment = props => {
             }
         }
         catch (error) {
-            console.log('Kaydetme başarısız')
+            message.error('Kaydetme başarısız')
         }
     }
 
-    useEffect(() => {
-        if(user.length === 0){
-            getUser();
-            getComment();
-        }
-    });
-
-    const getComment = async () =>{
-        if(props.articleId !== null && comment.length === 0){
+    getComment = async () =>{
+        if(this.props.articleId !== null && this.state.comment.length === 0){
             const comments  = await searchAllComments();
-            const comment = comments.data.filter(c => c.articleId._id === props.articleId)
-            setComment(comment);
+            const comment = comments.data.filter(c => c.articleId._id === this.props.articleId)
+            this.setState({comment});
         }
     }
 
-    const getUser = async () =>{
+    getUser = async () =>{
         const userId = JSON.parse(localStorage.getItem('userId'));
         if(userId !== null ){
             const user  = await searchUserById(userId)
-            setUser(user.data);
+            this.setState({user:user.data});
         }
     }
 
-    return (
-        <div style={{width: '80%', marginLeft: 'auto', marginRight: 'auto' }}>
-            <CommentForm handeleSumbit={data => handeleSumbit(data)} user = {user} />
-            <CommentList comment ={comment}/>
-        </div>
-    );
+    render(){
+        const {comment,user} = this.state
+        return (
+            <div style={{width: '80%', marginLeft: 'auto', marginRight: 'auto' }}>
+                <CommentForm handeleSumbit={data => this.handeleSumbit(data)} user = {user} />
+                <CommentList comment ={comment}/>
+            </div>
+        );
+    }
 
 }
 

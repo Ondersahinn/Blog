@@ -40,7 +40,6 @@ const SignUp = props => {
         }else{
             message.error(result.message)
         }
-        console.log(result)
     };
 
 

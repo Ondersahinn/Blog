@@ -26,7 +26,7 @@ class Store extends React.Component {
         const { loading, articles } = this.state;
         const currentArticles = articles.map(article => {
             return (
-                <Col className="gutter-row" key={article._id} span={6}>
+                <Col style={{marginBottom:'2vh'}} className="gutter-row" key={article._id} span={6}>
                     <Link to={`/articles/${article._id}`} key={`Link${article._id}`}>
                         <ArticleCard
                             title={article.title}
@@ -46,7 +46,7 @@ class Store extends React.Component {
         return (
             <div >
                 <React.Fragment key={currentArticles.length}>
-                    <Row  style={{ marginLeft:0, marginRight:0}}  gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+                    <Row  style={{ marginLeft:0, marginRight:0,marginBottom:'2vh'}}  gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                         {currentArticles.length > 0 ? (
                             currentArticles
                         ) : (

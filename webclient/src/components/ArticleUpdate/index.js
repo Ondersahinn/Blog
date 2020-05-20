@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from 'antd';
+import { Table, Result } from 'antd';
 import { columns } from '../../constans/articleUpdate'
 import { searchAllArticles, updateArticle } from '../../api/service/articleService'
 import ArticleCard from '../ArticleCreator/ArticleForm';
@@ -21,8 +21,13 @@ class ArticleUpdate extends React.Component {
     async componentDidMount() {
         const ressult = await searchAllArticles();
         const userId = JSON.parse(localStorage.getItem('userId'));
-        const articleList = ressult.data.filter(userData => userData.ownerId._id === userId);
-        this.setState({ data: articleList });
+        const data = ressult.data.map(data =>{
+                data.key =data._id
+                return data;
+        })
+        const articleList = data.filter(userData => userData.ownerId._id === userId);
+
+        this.setState({ data:articleList });
     }
 
 
@@ -56,8 +61,12 @@ function expandedRowRender(rowData) {
         data.ownerId = userId;
         data.createDateTime = createDateTime;
         const res = await updateArticle(taskId, data);
-        console.log(res)
-
+        if(res.data !== undefined){
+            message.success('Yazınız güncellendi edildi')
+        }
+        else {
+            message.success('Güncelleme başarısız.')
+        }
     }
 
     return (

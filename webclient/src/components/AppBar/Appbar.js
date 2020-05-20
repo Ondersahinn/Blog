@@ -31,7 +31,7 @@ class AppBar extends React.Component {
     return filterRoutes.map(route => {
       if (isLoggedIn) {
         return (
-          <Menu.Item key="Login" style={{ left: '65vw' }}>
+          <Menu.Item key="Login" >
             <Link to='/'>
               <Button type="primary" onClick={this.onLogOut} >Logout</Button>
             </Link>
@@ -39,7 +39,7 @@ class AppBar extends React.Component {
         );
       } else {
         return (
-          <Menu.Item key={route.name} style={{ left: '65vw' }}>
+          <Menu.Item key={route.name} >
             <Link to={route.path} >
               <Button type="primary">{route.name}</Button>
             </Link>
@@ -75,7 +75,7 @@ class AppBar extends React.Component {
     return filterRoutes.map(route => {
       if (isLoggedIn) {
         return (
-          <Menu.Item key={route.name} style={{ left: '45vw' }}>
+          <Menu.Item key={route.name} >
             <Link to={route.path} >
               <Button type="primary">{route.name}</Button>
             </Link>

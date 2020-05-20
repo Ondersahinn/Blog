@@ -3,6 +3,7 @@ import Login from './views/User/Login'
 import LandingPage from './components/LandingPage/Home/Home'
 import UserPanel from  './views/UserPanel'
 import ArticleDetail from './views/Store/ArticleDetail'
+import About from './views/About'
 import { Progress } from 'antd';
 
 export const accountRoutes = [
@@ -11,6 +12,13 @@ export const accountRoutes = [
         name: 'Home',
         icon: Progress,
         component: LandingPage,
+        layout: '/home',
+    },
+    {
+        path: '/about',
+        name: 'Hakkında',
+        icon: Progress,
+        component: About,
         layout: '/home',
     },
     {
@@ -34,6 +42,7 @@ export const accountRoutes = [
         component: ArticleDetail,
         layout: '/home',
     },
+ 
 ]
 
 export const userRoutes = [
