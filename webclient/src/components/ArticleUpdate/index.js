@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Result } from 'antd';
+import { Table, Result,message } from 'antd';
 import { columns } from '../../constans/articleUpdate'
 import { searchAllArticles, updateArticle } from '../../api/service/articleService'
 import ArticleCard from '../ArticleCreator/ArticleForm';
