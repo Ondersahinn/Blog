@@ -67,6 +67,12 @@ export const userRoutes = [
         component: ArticleDetail,
         layout: '/home',
       },
-
+      {
+        path: '/about',
+        name: 'Hakkında',
+        icon: Progress,
+        component: About,
+        layout: '/home',
+    },
 
 ]

@@ -1,17 +1,8 @@
 import React from 'react';
-import { Comment, Avatar, Form, Button, List, Input } from 'antd';
+import { Comment, Avatar, Form, Button, Input } from 'antd';
 import moment from 'moment';
 
 const { TextArea } = Input;
-
-const CommentList = ({ comments }) => (
-  <List
-    dataSource={comments}
-    header={`${comments.length} ${comments.length > 1 ? 'replies' : 'reply'}`}
-    itemLayout="horizontal"
-    renderItem={props => <Comment {...props} />}
-  />
-);
 
 const Editor = ({ onChange, onSubmit, submitting, value }) => (
   <div>
@@ -50,7 +41,7 @@ class CommentForm extends React.Component {
         comments: [
           {
             author: this.props.user.name ? this.props.user.name + " " + this.props.user.name
-              : "Han Solo",
+              : "Anonim",
             avatar: this.props.user.profileImage ? this.props.user.name :
               "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
             content: <p>{this.state.value}</p>,

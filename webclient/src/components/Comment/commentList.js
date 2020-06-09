@@ -1,7 +1,5 @@
-import React, { createElement, useState } from 'react';
+import React from 'react';
 import { Comment, Tooltip, Avatar } from 'antd';
-import moment from 'moment';
-import { DislikeOutlined, LikeOutlined, DislikeFilled, LikeFilled } from '@ant-design/icons';
 
 const CommentList = props => {
 
@@ -9,6 +7,7 @@ const CommentList = props => {
     props.comment.map(cm => {
       return (
         <Comment
+          key={cm._id}
           author={<a>{cm ? cm.ownerId.name + " " + cm.ownerId.surname : "Han Solo"}</a>}
           avatar={
             <Avatar

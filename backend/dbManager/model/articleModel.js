@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 const Article = mongoose.Schema({
   subject: {
-    type: String,
+    type: Array,
     required: true
   },
   title: {

@@ -19,32 +19,44 @@ class Comment extends React.Component {
   }
 
   handeleSumbit = async (data) => {
-    try {
-      if (data !== undefined) {
-        const userId = JSON.parse(localStorage.getItem("userId"));
-        const createDateTime = formatDate(new Date());
-        const commentData = {
-          content: data,
-          ownerId: userId,
-          articleId: this.props.articleId,
-          createDateTime: createDateTime,
-        };
-        const res = await createComment(commentData);
-        if (res.data !== undefined) {
-          message.success("Yazınız kayıt edildi");
-          localStorage.setItem("tabKey", "2");
+    const userId = localStorage.getItem('userId');
+    const commentLenght = data.length;
+      if (userId !== null) {
+        if(data !== undefined && data !== '' && commentLenght > 10){
+          const userId = JSON.parse(localStorage.getItem("userId"));
+          const createDateTime = formatDate(new Date());
+          const commentData = {
+            content: data,
+            ownerId: userId,
+            articleId: this.props.articleId,
+            createDateTime: createDateTime,
+          };
+          const res = await createComment(commentData);
+          if (res.data !== undefined) {
+            message.success("Yazınız kayıt edildi");
+            localStorage.setItem("tabKey", "2");
+          }
+        }
+        else {
+          message.error('Yorum karekter sayısı eksik');
         }
       }
-    } catch (error) {
-      message.error("Kaydetme başarısız");
-    }
+      else {
+        message.error("Kaydetme başarısız");
+        this.props.history.push('/login')
+      }
+    
   };
 
   getComment = async () => {
     if (this.props.articleId !== null && this.state.comment.length === 0) {
       const comments = await searchAllComments();
       if (comments.data !== undefined) {
-        const comment = comments.data.filter(
+        const data = comments.data.map((data) => {
+          data.key = data._id;
+          return data;
+        });
+        const comment = data.filter(
           (c) => c.articleId._id === this.props.articleId
         );
         this.setState({ comment });

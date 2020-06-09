@@ -16,7 +16,7 @@ class Login extends React.Component {
             return this.props.history.push('/');
         }
         return (
-            <Row justify="center" gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+            <Row justify="center" gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} style={{margin:0}}>
                 <Col className="gutter-row" span={16}>
                     <LoginForm />
                 </Col>

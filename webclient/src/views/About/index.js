@@ -109,10 +109,10 @@ const About = () => {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.7435646791228!2d39.199766915760584!3d38.67776106746486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4076c043f0ec934d%3A0x97da54a9bdfebc9a!2zRsSxcmF0IMOcbml2ZXJzaXRlc2k!5e0!3m2!1str!2str!4v1589986342800!5m2!1str!2str"
               width="600"
               height="450"
-              frameborder="0"
-              allowfullscreen=""
+              frameBorder="0"
+              allowFullScreen=""
               aria-hidden="false"
-              tabindex="0"
+              tabIndex="0"
             ></iframe>
           </Paragraph>
         </Col>
