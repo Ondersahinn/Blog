@@ -1,5 +1,5 @@
 import React from "react";
-import { withRouter, Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import { searchArticleById } from "../../api/service/articleService";
 import { Row, Col } from "antd";
 import { Avatar } from "antd";
@@ -35,13 +35,12 @@ class ArticleDetail extends React.Component {
 
   userProfile = (data) => {
     return (
-      <div style={{ marginBottom: "6vh", marginTop: "2vh" }}>
+      <div style={{ marginBottom: "6vh", marginTop: "2vh" }} >
         <h1>{data.title}</h1>
         <Avatar size={64} src={data.ownerId.profileImage} />
         <span
           style={{ paddingLeft: "1vw", fontWeight: "bold", fontSize: "20px" }}
         >
-          {" "}
           {data.ownerId.name + " " + data.ownerId.surname}
         </span>
         <span style={{ float: "right", marginTop: "6vh" }}>
@@ -91,10 +90,11 @@ class ArticleDetail extends React.Component {
 
     return (
       <div>
-        <Row>
-          <Col span={16} offset={4}>
+        <Row >
+          <Col span={16} offset={4} >
             {data.length > 0 ? this.userProfile(data[0]) : ""}
             <Editor
+            
               editorState={editorState}
               readOnly
               toolbarHidden

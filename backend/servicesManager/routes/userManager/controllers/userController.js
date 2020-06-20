@@ -10,7 +10,6 @@ exports.searchAll = async (req, res) => {
         message: response.data.message,
         status: response.data.status,
       });
-      console.log(response)
     })
     .catch(function (response) {
       res.json({
@@ -47,7 +46,6 @@ exports.login = async (req, res) => {
         message: response.data.message,
         status: response.data.status,
       });
-      console.log(response)
     })
     .catch(function (response) {
       res.json({

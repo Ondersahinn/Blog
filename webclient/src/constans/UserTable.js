@@ -1,10 +1,9 @@
 export const columns = [
     {
-      title: 'Ad Soyad',
-      dataIndex: 'ownerId.name',
+      title: 'Başlık',	            
+      dataIndex: 'title',	
     },
-    { title: 'Konu', dataIndex: 'articleId.subject', key: 'articleId.subject' },
-    {
+    { title: 'Konu', dataIndex: 'subject', key: 'subject' },	    {
       title: 'Oluşturma zamanı',
       dataIndex: 'createDateTime',
      },
