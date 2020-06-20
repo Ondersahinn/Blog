@@ -34,7 +34,7 @@ class Comment extends React.Component {
           const res = await createComment(commentData);
           if (res.data !== undefined) {
             message.success("Yazınız kayıt edildi");
-            localStorage.setItem("tabKey", "2");
+            this.getComment();
           }
         }
         else {

@@ -60,7 +60,7 @@ class CommentForm extends React.Component {
   };
 
   render() {
-    const { comments, submitting, value } = this.state;
+    const { submitting, value } = this.state;
     return (
       <div>
         <Comment
