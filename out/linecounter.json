@@ -1,0 +1,3060 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "f:\\4. Sınıf\\Bitirme projesi\\Sosyal Blog",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2020-06-27 01:08:14",
+            "filesum": 129,
+            "codesum": 15631,
+            "commentsum": 364,
+            "blanksum": 2976,
+            "statistics": {
+                ".md": {
+                    "code": 45,
+                    "comment": 12,
+                    "blank": 34
+                },
+                "": {
+                    "code": 138,
+                    "comment": 49,
+                    "blank": 47
+                },
+                ".lock": {
+                    "code": 11200,
+                    "comment": 37,
+                    "blank": 2371
+                },
+                ".json": {
+                    "code": 172,
+                    "comment": 0,
+                    "blank": 4
+                },
+                ".js": {
+                    "code": 3135,
+                    "comment": 162,
+                    "blank": 377
+                },
+                ".log": {
+                    "code": 682,
+                    "comment": 2,
+                    "blank": 120
+                },
+                ".html": {
+                    "code": 136,
+                    "comment": 23,
+                    "blank": 0
+                },
+                ".txt": {
+                    "code": 6,
+                    "comment": 69,
+                    "blank": 10
+                },
+                ".less": {
+                    "code": 32,
+                    "comment": 0,
+                    "blank": 2
+                },
+                ".css": {
+                    "code": 49,
+                    "comment": 10,
+                    "blank": 7
+                },
+                ".jade": {
+                    "code": 32,
+                    "comment": 0,
+                    "blank": 4
+                },
+                ".map": {
+                    "code": 4,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 14,
+                    "code": 31,
+                    "comment": 5,
+                    "filename": "backend\\dbManager\\app.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 47,
+                    "comment": 24,
+                    "filename": "backend\\dbManager\\bin\\www"
+                },
+                {
+                    "blank": 7,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\articleController.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 94,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\commentController.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 112,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\userController.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 14,
+                    "comment": 46,
+                    "filename": "backend\\dbManager\\db.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\model\\articleModel.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\model\\commentModel.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\model\\userModel.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\package.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\public\\stylesheets\\style.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\routes\\apiRoutes.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\routes\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\views\\error.jade"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\views\\index.jade"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\views\\layout.jade"
+                },
+                {
+                    "blank": 120,
+                    "code": 682,
+                    "comment": 2,
+                    "filename": "backend\\dbManager\\yarn-error.log"
+                },
+                {
+                    "blank": 167,
+                    "code": 964,
+                    "comment": 2,
+                    "filename": "backend\\dbManager\\yarn.lock"
+                },
+                {
+                    "blank": 13,
+                    "code": 34,
+                    "comment": 5,
+                    "filename": "backend\\servicesManager\\app.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 47,
+                    "comment": 24,
+                    "filename": "backend\\servicesManager\\bin\\www"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\package.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\public\\stylesheets\\style.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\articleManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\articleManager\\controllers\\articleController.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\commentManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\commentManager\\controllers\\commentController.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\servicesManager\\routes\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\userManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 107,
+                    "comment": 31,
+                    "filename": "backend\\servicesManager\\routes\\userManager\\controllers\\userController.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\servicesManager\\routes\\users.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\views\\error.jade"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\views\\index.jade"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\views\\layout.jade"
+                },
+                {
+                    "blank": 109,
+                    "code": 623,
+                    "comment": 2,
+                    "filename": "backend\\servicesManager\\yarn.lock"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "backend\\yarn.lock"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "webclient\\.eslintrc"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "webclient\\.gitignore"
+                },
+                {
+                    "filename": "webclient\\build.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "webclient\\build\\asset-manifest.json"
+                },
+                {
+                    "filename": "webclient\\build\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 116,
+                    "comment": 0,
+                    "filename": "webclient\\build\\index.html"
+                },
+                {
+                    "filename": "webclient\\build\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\build\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "webclient\\build\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\build\\precache-manifest.267ffa83a2636bcb2f95a69e47fb8ce0.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "webclient\\build\\robots.txt"
+                },
+                {
+                    "blank": 8,
+                    "code": 14,
+                    "comment": 17,
+                    "filename": "webclient\\build\\service-worker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 10,
+                    "filename": "webclient\\build\\static\\css\\2.7946b208.chunk.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\css\\2.7946b208.chunk.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "webclient\\build\\static\\js\\2.83f83544.chunk.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 0,
+                    "comment": 67,
+                    "filename": "webclient\\build\\static\\js\\2.83f83544.chunk.js.LICENSE.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\js\\2.83f83544.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "webclient\\build\\static\\js\\main.80d73cfa.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\js\\main.80d73cfa.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "webclient\\build\\static\\js\\runtime-main.4364eacb.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\js\\runtime-main.4364eacb.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\media\\App.78a4b671.less"
+                },
+                {
+                    "filename": "webclient\\build\\static\\media\\wall2.e8310d19.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\build\\static\\media\\wall3.7c96a713.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "webclient\\package.json"
+                },
+                {
+                    "filename": "webclient\\public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 23,
+                    "filename": "webclient\\public\\index.html"
+                },
+                {
+                    "filename": "webclient\\public\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\public\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "webclient\\public\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "webclient\\public\\robots.txt"
+                },
+                {
+                    "blank": 31,
+                    "code": 37,
+                    "comment": 12,
+                    "filename": "webclient\\README.md"
+                },
+                {
+                    "blank": 4,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\client\\client.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\client\\errorParser.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\articleService.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\commentService.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\dataParser.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\images.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\userService.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.less"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.test.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\AppBar\\Appbar.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Article\\index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 104,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\ArticleForm.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\SubjectSelect.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleList\\index.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleUpdate\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\commentForm.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\commentList.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 81,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\CommentManager\\DeleteModal.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 96,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\CommentManager\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Carusel\\BannerCarousel.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Footer\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Home\\Home.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\MiddleSection\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Notification\\index.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 129,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\SignUp\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\imageUpload.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\profileForm.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\About.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Article.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\articleUpdate.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Comment.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\header.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Login.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 4,
+                    "filename": "webclient\\src\\constans\\SginUp.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\UserTable.js"
+                },
+                {
+                    "filename": "webclient\\src\\images\\footerlogo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\user.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\wall2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\wall3.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 4,
+                    "filename": "webclient\\src\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "webclient\\src\\routes.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 95,
+                    "comment": 31,
+                    "filename": "webclient\\src\\serviceWorker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "webclient\\src\\setupTests.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "webclient\\src\\utils\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\About\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\ArticleCard\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Home\\AppContent.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Home\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 118,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Store\\ArticleDetail.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Store\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\User\\Login.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 88,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\User\\LoginForm.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\UserPanel\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 5,
+                    "filename": "webclient\\user-setting.js"
+                },
+                {
+                    "blank": 2093,
+                    "code": 9611,
+                    "comment": 33,
+                    "filename": "webclient\\yarn.lock"
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2020-06-27 01:09:44",
+            "filesum": 129,
+            "codesum": 15631,
+            "commentsum": 364,
+            "blanksum": 2976,
+            "statistics": {
+                "": {
+                    "code": 138,
+                    "comment": 49,
+                    "blank": 47
+                },
+                ".md": {
+                    "code": 45,
+                    "comment": 12,
+                    "blank": 34
+                },
+                ".json": {
+                    "code": 172,
+                    "comment": 0,
+                    "blank": 4
+                },
+                ".js": {
+                    "code": 3135,
+                    "comment": 162,
+                    "blank": 377
+                },
+                ".lock": {
+                    "code": 11200,
+                    "comment": 37,
+                    "blank": 2371
+                },
+                ".html": {
+                    "code": 136,
+                    "comment": 23,
+                    "blank": 0
+                },
+                ".log": {
+                    "code": 682,
+                    "comment": 2,
+                    "blank": 120
+                },
+                ".txt": {
+                    "code": 6,
+                    "comment": 69,
+                    "blank": 10
+                },
+                ".css": {
+                    "code": 49,
+                    "comment": 10,
+                    "blank": 7
+                },
+                ".less": {
+                    "code": 32,
+                    "comment": 0,
+                    "blank": 2
+                },
+                ".jade": {
+                    "code": 32,
+                    "comment": 0,
+                    "blank": 4
+                },
+                ".map": {
+                    "code": 4,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 14,
+                    "code": 31,
+                    "comment": 5,
+                    "filename": "backend\\dbManager\\app.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 47,
+                    "comment": 24,
+                    "filename": "backend\\dbManager\\bin\\www"
+                },
+                {
+                    "blank": 7,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\articleController.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 94,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\commentController.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 112,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\userController.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 14,
+                    "comment": 46,
+                    "filename": "backend\\dbManager\\db.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\model\\articleModel.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\model\\commentModel.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\model\\userModel.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\package.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\public\\stylesheets\\style.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\routes\\apiRoutes.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\routes\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\views\\error.jade"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\views\\index.jade"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\views\\layout.jade"
+                },
+                {
+                    "blank": 120,
+                    "code": 682,
+                    "comment": 2,
+                    "filename": "backend\\dbManager\\yarn-error.log"
+                },
+                {
+                    "blank": 167,
+                    "code": 964,
+                    "comment": 2,
+                    "filename": "backend\\dbManager\\yarn.lock"
+                },
+                {
+                    "blank": 13,
+                    "code": 34,
+                    "comment": 5,
+                    "filename": "backend\\servicesManager\\app.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 47,
+                    "comment": 24,
+                    "filename": "backend\\servicesManager\\bin\\www"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\package.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\public\\stylesheets\\style.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\articleManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\articleManager\\controllers\\articleController.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\commentManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\commentManager\\controllers\\commentController.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\servicesManager\\routes\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\userManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 107,
+                    "comment": 31,
+                    "filename": "backend\\servicesManager\\routes\\userManager\\controllers\\userController.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\servicesManager\\routes\\users.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\views\\error.jade"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\views\\index.jade"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\views\\layout.jade"
+                },
+                {
+                    "blank": 109,
+                    "code": 623,
+                    "comment": 2,
+                    "filename": "backend\\servicesManager\\yarn.lock"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "backend\\yarn.lock"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "webclient\\.eslintrc"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "webclient\\.gitignore"
+                },
+                {
+                    "filename": "webclient\\build.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "webclient\\build\\asset-manifest.json"
+                },
+                {
+                    "filename": "webclient\\build\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 116,
+                    "comment": 0,
+                    "filename": "webclient\\build\\index.html"
+                },
+                {
+                    "filename": "webclient\\build\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\build\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "webclient\\build\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\build\\precache-manifest.267ffa83a2636bcb2f95a69e47fb8ce0.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "webclient\\build\\robots.txt"
+                },
+                {
+                    "blank": 8,
+                    "code": 14,
+                    "comment": 17,
+                    "filename": "webclient\\build\\service-worker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 10,
+                    "filename": "webclient\\build\\static\\css\\2.7946b208.chunk.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\css\\2.7946b208.chunk.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "webclient\\build\\static\\js\\2.83f83544.chunk.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 0,
+                    "comment": 67,
+                    "filename": "webclient\\build\\static\\js\\2.83f83544.chunk.js.LICENSE.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\js\\2.83f83544.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "webclient\\build\\static\\js\\main.80d73cfa.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\js\\main.80d73cfa.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "webclient\\build\\static\\js\\runtime-main.4364eacb.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\js\\runtime-main.4364eacb.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\media\\App.78a4b671.less"
+                },
+                {
+                    "filename": "webclient\\build\\static\\media\\wall2.e8310d19.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\build\\static\\media\\wall3.7c96a713.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "webclient\\package.json"
+                },
+                {
+                    "filename": "webclient\\public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 23,
+                    "filename": "webclient\\public\\index.html"
+                },
+                {
+                    "filename": "webclient\\public\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\public\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "webclient\\public\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "webclient\\public\\robots.txt"
+                },
+                {
+                    "blank": 31,
+                    "code": 37,
+                    "comment": 12,
+                    "filename": "webclient\\README.md"
+                },
+                {
+                    "blank": 4,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\client\\client.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\client\\errorParser.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\articleService.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\commentService.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\dataParser.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\images.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\userService.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.less"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.test.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\AppBar\\Appbar.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Article\\index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 104,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\ArticleForm.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\SubjectSelect.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleList\\index.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleUpdate\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\commentForm.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\commentList.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 81,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\CommentManager\\DeleteModal.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 96,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\CommentManager\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Carusel\\BannerCarousel.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Footer\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Home\\Home.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\MiddleSection\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Notification\\index.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 129,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\SignUp\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\imageUpload.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\profileForm.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\About.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Article.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\articleUpdate.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Comment.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\header.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Login.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 4,
+                    "filename": "webclient\\src\\constans\\SginUp.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\UserTable.js"
+                },
+                {
+                    "filename": "webclient\\src\\images\\footerlogo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\user.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\wall2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\wall3.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 4,
+                    "filename": "webclient\\src\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "webclient\\src\\routes.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 95,
+                    "comment": 31,
+                    "filename": "webclient\\src\\serviceWorker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "webclient\\src\\setupTests.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "webclient\\src\\utils\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\About\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\ArticleCard\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Home\\AppContent.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Home\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 118,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Store\\ArticleDetail.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Store\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\User\\Login.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 88,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\User\\LoginForm.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\UserPanel\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 5,
+                    "filename": "webclient\\user-setting.js"
+                },
+                {
+                    "blank": 2093,
+                    "code": 9611,
+                    "comment": 33,
+                    "filename": "webclient\\yarn.lock"
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2020-06-27 01:15:00",
+            "filesum": 129,
+            "codesum": 15631,
+            "commentsum": 364,
+            "blanksum": 2976,
+            "statistics": {
+                ".md": {
+                    "code": 45,
+                    "comment": 12,
+                    "blank": 34
+                },
+                ".lock": {
+                    "code": 11200,
+                    "comment": 37,
+                    "blank": 2371
+                },
+                "": {
+                    "code": 138,
+                    "comment": 49,
+                    "blank": 47
+                },
+                ".json": {
+                    "code": 172,
+                    "comment": 0,
+                    "blank": 4
+                },
+                ".js": {
+                    "code": 3135,
+                    "comment": 162,
+                    "blank": 377
+                },
+                ".log": {
+                    "code": 682,
+                    "comment": 2,
+                    "blank": 120
+                },
+                ".html": {
+                    "code": 136,
+                    "comment": 23,
+                    "blank": 0
+                },
+                ".txt": {
+                    "code": 6,
+                    "comment": 69,
+                    "blank": 10
+                },
+                ".css": {
+                    "code": 49,
+                    "comment": 10,
+                    "blank": 7
+                },
+                ".less": {
+                    "code": 32,
+                    "comment": 0,
+                    "blank": 2
+                },
+                ".jade": {
+                    "code": 32,
+                    "comment": 0,
+                    "blank": 4
+                },
+                ".map": {
+                    "code": 4,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 14,
+                    "code": 31,
+                    "comment": 5,
+                    "filename": "backend\\dbManager\\app.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 47,
+                    "comment": 24,
+                    "filename": "backend\\dbManager\\bin\\www"
+                },
+                {
+                    "blank": 7,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\articleController.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 94,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\commentController.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 112,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\userController.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 14,
+                    "comment": 46,
+                    "filename": "backend\\dbManager\\db.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\model\\articleModel.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\model\\commentModel.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\model\\userModel.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\package.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\public\\stylesheets\\style.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\routes\\apiRoutes.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\routes\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\views\\error.jade"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\views\\index.jade"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\views\\layout.jade"
+                },
+                {
+                    "blank": 120,
+                    "code": 682,
+                    "comment": 2,
+                    "filename": "backend\\dbManager\\yarn-error.log"
+                },
+                {
+                    "blank": 167,
+                    "code": 964,
+                    "comment": 2,
+                    "filename": "backend\\dbManager\\yarn.lock"
+                },
+                {
+                    "blank": 13,
+                    "code": 34,
+                    "comment": 5,
+                    "filename": "backend\\servicesManager\\app.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 47,
+                    "comment": 24,
+                    "filename": "backend\\servicesManager\\bin\\www"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\package.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\public\\stylesheets\\style.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\articleManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\articleManager\\controllers\\articleController.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\commentManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\commentManager\\controllers\\commentController.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\servicesManager\\routes\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\userManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 107,
+                    "comment": 31,
+                    "filename": "backend\\servicesManager\\routes\\userManager\\controllers\\userController.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\servicesManager\\routes\\users.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\views\\error.jade"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\views\\index.jade"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\views\\layout.jade"
+                },
+                {
+                    "blank": 109,
+                    "code": 623,
+                    "comment": 2,
+                    "filename": "backend\\servicesManager\\yarn.lock"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "backend\\yarn.lock"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "webclient\\.eslintrc"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "webclient\\.gitignore"
+                },
+                {
+                    "filename": "webclient\\build.zip",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "webclient\\build\\asset-manifest.json"
+                },
+                {
+                    "filename": "webclient\\build\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 116,
+                    "comment": 0,
+                    "filename": "webclient\\build\\index.html"
+                },
+                {
+                    "filename": "webclient\\build\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\build\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "webclient\\build\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\build\\precache-manifest.267ffa83a2636bcb2f95a69e47fb8ce0.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "webclient\\build\\robots.txt"
+                },
+                {
+                    "blank": 8,
+                    "code": 14,
+                    "comment": 17,
+                    "filename": "webclient\\build\\service-worker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 10,
+                    "filename": "webclient\\build\\static\\css\\2.7946b208.chunk.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\css\\2.7946b208.chunk.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "webclient\\build\\static\\js\\2.83f83544.chunk.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 0,
+                    "comment": 67,
+                    "filename": "webclient\\build\\static\\js\\2.83f83544.chunk.js.LICENSE.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\js\\2.83f83544.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "webclient\\build\\static\\js\\main.80d73cfa.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\js\\main.80d73cfa.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "webclient\\build\\static\\js\\runtime-main.4364eacb.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\js\\runtime-main.4364eacb.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "webclient\\build\\static\\media\\App.78a4b671.less"
+                },
+                {
+                    "filename": "webclient\\build\\static\\media\\wall2.e8310d19.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\build\\static\\media\\wall3.7c96a713.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "webclient\\package.json"
+                },
+                {
+                    "filename": "webclient\\public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 23,
+                    "filename": "webclient\\public\\index.html"
+                },
+                {
+                    "filename": "webclient\\public\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\public\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "webclient\\public\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "webclient\\public\\robots.txt"
+                },
+                {
+                    "blank": 31,
+                    "code": 37,
+                    "comment": 12,
+                    "filename": "webclient\\README.md"
+                },
+                {
+                    "blank": 4,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\client\\client.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\client\\errorParser.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\articleService.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\commentService.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\dataParser.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\images.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\userService.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.less"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.test.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\AppBar\\Appbar.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Article\\index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 104,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\ArticleForm.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\SubjectSelect.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleList\\index.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleUpdate\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\commentForm.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\commentList.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 81,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\CommentManager\\DeleteModal.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 96,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\CommentManager\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Carusel\\BannerCarousel.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Footer\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Home\\Home.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\MiddleSection\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Notification\\index.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 129,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\SignUp\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\imageUpload.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\profileForm.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\About.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Article.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\articleUpdate.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Comment.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\header.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Login.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 4,
+                    "filename": "webclient\\src\\constans\\SginUp.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\UserTable.js"
+                },
+                {
+                    "filename": "webclient\\src\\images\\footerlogo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\user.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\wall2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "webclient\\src\\images\\wall3.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 4,
+                    "filename": "webclient\\src\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "webclient\\src\\routes.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 95,
+                    "comment": 31,
+                    "filename": "webclient\\src\\serviceWorker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "webclient\\src\\setupTests.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "webclient\\src\\utils\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\About\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\ArticleCard\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Home\\AppContent.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Home\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 118,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Store\\ArticleDetail.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Store\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\User\\Login.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 88,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\User\\LoginForm.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\UserPanel\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 5,
+                    "filename": "webclient\\user-setting.js"
+                },
+                {
+                    "blank": 2093,
+                    "code": 9611,
+                    "comment": 33,
+                    "filename": "webclient\\yarn.lock"
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2020-06-27 01:22:13",
+            "filesum": 76,
+            "codesum": 3135,
+            "commentsum": 162,
+            "blanksum": 377,
+            "statistics": {
+                ".js": {
+                    "code": 3135,
+                    "comment": 162,
+                    "blank": 377
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 14,
+                    "code": 31,
+                    "comment": 5,
+                    "filename": "backend\\dbManager\\app.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\articleController.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 94,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\commentController.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 112,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\controllers\\userController.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 14,
+                    "comment": 46,
+                    "filename": "backend\\dbManager\\db.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\model\\articleModel.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\model\\commentModel.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\model\\userModel.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "backend\\dbManager\\routes\\apiRoutes.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\dbManager\\routes\\index.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 34,
+                    "comment": 5,
+                    "filename": "backend\\servicesManager\\app.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\articleManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\articleManager\\controllers\\articleController.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\commentManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\commentManager\\controllers\\commentController.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\servicesManager\\routes\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "backend\\servicesManager\\routes\\userManager\\apiRoutes.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 107,
+                    "comment": 31,
+                    "filename": "backend\\servicesManager\\routes\\userManager\\controllers\\userController.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "backend\\servicesManager\\routes\\users.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\build\\precache-manifest.267ffa83a2636bcb2f95a69e47fb8ce0.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 14,
+                    "comment": 17,
+                    "filename": "webclient\\build\\service-worker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "webclient\\build\\static\\js\\2.83f83544.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "webclient\\build\\static\\js\\main.80d73cfa.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "webclient\\build\\static\\js\\runtime-main.4364eacb.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\client\\client.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\client\\errorParser.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\articleService.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\commentService.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\dataParser.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\images.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "webclient\\src\\api\\service\\userService.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "webclient\\src\\App.test.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\AppBar\\Appbar.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Article\\index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 104,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\ArticleForm.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleCreator\\SubjectSelect.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleList\\index.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\ArticleUpdate\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\commentForm.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\commentList.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 81,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Comment\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\CommentManager\\DeleteModal.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 96,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\CommentManager\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Carusel\\BannerCarousel.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Footer\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\Home\\Home.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\LandingPage\\MiddleSection\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\Notification\\index.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 129,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\SignUp\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\imageUpload.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "webclient\\src\\components\\UserProfile\\profileForm.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\About.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Article.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\articleUpdate.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Comment.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\Login.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 4,
+                    "filename": "webclient\\src\\constans\\SginUp.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "webclient\\src\\constans\\UserTable.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 4,
+                    "filename": "webclient\\src\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "webclient\\src\\routes.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 95,
+                    "comment": 31,
+                    "filename": "webclient\\src\\serviceWorker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "webclient\\src\\setupTests.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "webclient\\src\\utils\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\About\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\ArticleCard\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Home\\AppContent.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Home\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 118,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Store\\ArticleDetail.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\Store\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\User\\Login.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 88,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\User\\LoginForm.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "webclient\\src\\views\\UserPanel\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 5,
+                    "filename": "webclient\\user-setting.js"
+                }
+            ]
+        }
+    ]
+}

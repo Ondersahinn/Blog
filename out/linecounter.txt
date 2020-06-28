@@ -1,0 +1,721 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2020-06-27 01:08:14
+count workspace : f:\4. Sınıf\Bitirme projesi\Sosyal Blog
+total files : 129
+total code lines : 15631
+total comment lines : 364
+total blank lines : 2976
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .md|             45|             12|             34|   0.29|
+   |               |            138|             49|             47|   0.88|
+   |          .lock|          11200|             37|           2371|     72|
+   |          .json|            172|              0|              4|    1.1|
+   |            .js|           3135|            162|            377|     20|
+   |           .log|            682|              2|            120|    4.4|
+   |          .html|            136|             23|              0|   0.87|
+   |           .txt|              6|             69|             10|  0.038|
+   |          .less|             32|              0|              2|   0.20|
+   |           .css|             49|             10|              7|   0.31|
+   |          .jade|             32|              0|              4|   0.20|
+   |           .map|              4|              0|              0|  0.026|
+   -------------------------------------------------------------------------
+backend\dbManager\app.js, code is 31, comment is 5, blank is 14.
+backend\dbManager\bin\www, code is 47, comment is 24, blank is 19.
+backend\dbManager\controllers\articleController.js, code is 92, comment is 0, blank is 7.
+backend\dbManager\controllers\commentController.js, code is 94, comment is 0, blank is 7.
+backend\dbManager\controllers\userController.js, code is 112, comment is 0, blank is 6.
+backend\dbManager\db.js, code is 14, comment is 46, blank is 11.
+backend\dbManager\model\articleModel.js, code is 28, comment is 1, blank is 3.
+backend\dbManager\model\commentModel.js, code is 25, comment is 1, blank is 3.
+backend\dbManager\model\userModel.js, code is 39, comment is 0, blank is 2.
+backend\dbManager\package.json, code is 23, comment is 0, blank is 0.
+backend\dbManager\public\stylesheets\style.css, code is 7, comment is 0, blank is 1.
+backend\dbManager\routes\apiRoutes.js, code is 33, comment is 0, blank is 9.
+backend\dbManager\routes\index.js, code is 6, comment is 1, blank is 2.
+backend\dbManager\views\error.jade, code is 5, comment is 0, blank is 1.
+backend\dbManager\views\index.jade, code is 4, comment is 0, blank is 1.
+backend\dbManager\views\layout.jade, code is 7, comment is 0, blank is 0.
+backend\dbManager\yarn-error.log, code is 682, comment is 2, blank is 120.
+backend\dbManager\yarn.lock, code is 964, comment is 2, blank is 167.
+backend\servicesManager\app.js, code is 34, comment is 5, blank is 13.
+backend\servicesManager\bin\www, code is 47, comment is 24, blank is 19.
+backend\servicesManager\package.json, code is 20, comment is 0, blank is 0.
+backend\servicesManager\public\stylesheets\style.css, code is 7, comment is 0, blank is 1.
+backend\servicesManager\routes\articleManager\apiRoutes.js, code is 27, comment is 0, blank is 5.
+backend\servicesManager\routes\articleManager\controllers\articleController.js, code is 89, comment is 0, blank is 5.
+backend\servicesManager\routes\commentManager\apiRoutes.js, code is 27, comment is 0, blank is 5.
+backend\servicesManager\routes\commentManager\controllers\commentController.js, code is 89, comment is 0, blank is 5.
+backend\servicesManager\routes\index.js, code is 6, comment is 1, blank is 2.
+backend\servicesManager\routes\userManager\apiRoutes.js, code is 21, comment is 0, blank is 5.
+backend\servicesManager\routes\userManager\controllers\userController.js, code is 107, comment is 31, blank is 8.
+backend\servicesManager\routes\users.js, code is 6, comment is 1, blank is 2.
+backend\servicesManager\views\error.jade, code is 5, comment is 0, blank is 1.
+backend\servicesManager\views\index.jade, code is 4, comment is 0, blank is 1.
+backend\servicesManager\views\layout.jade, code is 7, comment is 0, blank is 0.
+backend\servicesManager\yarn.lock, code is 623, comment is 2, blank is 109.
+backend\yarn.lock, code is 2, comment is 0, blank is 2.
+README.md, code is 8, comment is 0, blank is 3.
+webclient\.eslintrc, code is 26, comment is 0, blank is 4.
+webclient\.gitignore, code is 18, comment is 1, blank is 5.
+webclient\build.zip, it is a binary file.
+webclient\build\asset-manifest.json, code is 24, comment is 0, blank is 1.
+webclient\build\favicon.ico, it is a binary file.
+webclient\build\index.html, code is 116, comment is 0, blank is 0.
+webclient\build\logo192.png, it is a binary file.
+webclient\build\logo512.png, it is a binary file.
+webclient\build\manifest.json, code is 25, comment is 0, blank is 0.
+webclient\build\precache-manifest.267ffa83a2636bcb2f95a69e47fb8ce0.js, code is 38, comment is 0, blank is 0.
+webclient\build\robots.txt, code is 3, comment is 1, blank is 0.
+webclient\build\service-worker.js, code is 14, comment is 17, blank is 8.
+webclient\build\static\css\2.7946b208.chunk.css, code is 2, comment is 10, blank is 0.
+webclient\build\static\css\2.7946b208.chunk.css.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\2.83f83544.chunk.js, code is 1, comment is 3, blank is 0.
+webclient\build\static\js\2.83f83544.chunk.js.LICENSE.txt, code is 0, comment is 67, blank is 10.
+webclient\build\static\js\2.83f83544.chunk.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\main.80d73cfa.chunk.js, code is 1, comment is 1, blank is 0.
+webclient\build\static\js\main.80d73cfa.chunk.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\runtime-main.4364eacb.js, code is 1, comment is 1, blank is 0.
+webclient\build\static\js\runtime-main.4364eacb.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\media\App.78a4b671.less, code is 16, comment is 0, blank is 1.
+webclient\build\static\media\wall2.e8310d19.jpg, it is a binary file.
+webclient\build\static\media\wall3.7c96a713.jpg, it is a binary file.
+webclient\package.json, code is 45, comment is 0, blank is 3.
+webclient\public\favicon.ico, it is a binary file.
+webclient\public\index.html, code is 20, comment is 23, blank is 0.
+webclient\public\logo192.png, it is a binary file.
+webclient\public\logo512.png, it is a binary file.
+webclient\public\manifest.json, code is 25, comment is 0, blank is 0.
+webclient\public\robots.txt, code is 3, comment is 1, blank is 0.
+webclient\README.md, code is 37, comment is 12, blank is 31.
+webclient\src\api\client\client.js, code is 22, comment is 0, blank is 4.
+webclient\src\api\client\errorParser.js, code is 6, comment is 0, blank is 0.
+webclient\src\api\service\articleService.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\commentService.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\dataParser.js, code is 26, comment is 0, blank is 3.
+webclient\src\api\service\images.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\userService.js, code is 45, comment is 0, blank is 6.
+webclient\src\App.css, code is 33, comment is 0, blank is 5.
+webclient\src\App.js, code is 15, comment is 0, blank is 2.
+webclient\src\App.less, code is 16, comment is 0, blank is 1.
+webclient\src\App.test.js, code is 8, comment is 0, blank is 1.
+webclient\src\components\AppBar\Appbar.js, code is 84, comment is 0, blank is 8.
+webclient\src\components\Article\index.js, code is 9, comment is 0, blank is 0.
+webclient\src\components\ArticleCreator\ArticleForm.js, code is 104, comment is 0, blank is 10.
+webclient\src\components\ArticleCreator\index.js, code is 29, comment is 0, blank is 5.
+webclient\src\components\ArticleCreator\SubjectSelect.js, code is 31, comment is 0, blank is 6.
+webclient\src\components\ArticleList\index.js, code is 31, comment is 0, blank is 4.
+webclient\src\components\ArticleUpdate\index.js, code is 72, comment is 0, blank is 12.
+webclient\src\components\Comment\commentForm.js, code is 79, comment is 0, blank is 8.
+webclient\src\components\Comment\commentList.js, code is 32, comment is 0, blank is 4.
+webclient\src\components\Comment\index.js, code is 81, comment is 0, blank is 8.
+webclient\src\components\CommentManager\DeleteModal.js, code is 35, comment is 0, blank is 7.
+webclient\src\components\CommentManager\index.js, code is 96, comment is 0, blank is 10.
+webclient\src\components\LandingPage\Carusel\BannerCarousel.js, code is 26, comment is 0, blank is 4.
+webclient\src\components\LandingPage\Footer\index.js, code is 60, comment is 0, blank is 3.
+webclient\src\components\LandingPage\Home\Home.js, code is 14, comment is 0, blank is 2.
+webclient\src\components\LandingPage\MiddleSection\index.js, code is 0, comment is 0, blank is 0.
+webclient\src\components\Notification\index.js, code is 24, comment is 0, blank is 6.
+webclient\src\components\SignUp\index.js, code is 129, comment is 0, blank is 11.
+webclient\src\components\UserProfile\imageUpload.js, code is 69, comment is 0, blank is 8.
+webclient\src\components\UserProfile\index.js, code is 48, comment is 0, blank is 6.
+webclient\src\components\UserProfile\profileForm.js, code is 48, comment is 0, blank is 10.
+webclient\src\constans\About.js, code is 4, comment is 0, blank is 0.
+webclient\src\constans\Article.js, code is 14, comment is 0, blank is 2.
+webclient\src\constans\articleUpdate.js, code is 22, comment is 0, blank is 2.
+webclient\src\constans\Comment.js, code is 19, comment is 0, blank is 0.
+webclient\src\constans\header.json, code is 10, comment is 0, blank is 0.
+webclient\src\constans\Login.js, code is 14, comment is 0, blank is 0.
+webclient\src\constans\SginUp.js, code is 15, comment is 4, blank is 1.
+webclient\src\constans\UserTable.js, code is 10, comment is 0, blank is 0.
+webclient\src\images\footerlogo.png, it is a binary file.
+webclient\src\images\logo.png, it is a binary file.
+webclient\src\images\user.jpeg, it is a binary file.
+webclient\src\images\wall2.jpg, it is a binary file.
+webclient\src\images\wall3.jpg, it is a binary file.
+webclient\src\index.js, code is 6, comment is 4, blank is 2.
+webclient\src\routes.js, code is 74, comment is 0, blank is 4.
+webclient\src\serviceWorker.js, code is 95, comment is 31, blank is 15.
+webclient\src\setupTests.js, code is 1, comment is 4, blank is 0.
+webclient\src\utils\index.js, code is 29, comment is 0, blank is 4.
+webclient\src\views\About\index.js, code is 113, comment is 0, blank is 4.
+webclient\src\views\ArticleCard\index.js, code is 28, comment is 0, blank is 8.
+webclient\src\views\Home\AppContent.js, code is 31, comment is 0, blank is 5.
+webclient\src\views\Home\index.js, code is 62, comment is 0, blank is 8.
+webclient\src\views\Store\ArticleDetail.js, code is 118, comment is 0, blank is 7.
+webclient\src\views\Store\index.js, code is 54, comment is 0, blank is 9.
+webclient\src\views\User\Login.js, code is 24, comment is 0, blank is 5.
+webclient\src\views\User\LoginForm.js, code is 88, comment is 0, blank is 9.
+webclient\src\views\UserPanel\index.js, code is 34, comment is 0, blank is 4.
+webclient\user-setting.js, code is 8, comment is 5, blank is 0.
+webclient\yarn.lock, code is 9611, comment is 33, blank is 2093.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2020-06-27 01:09:44
+count workspace : f:\4. Sınıf\Bitirme projesi\Sosyal Blog
+total files : 129
+total code lines : 15631
+total comment lines : 364
+total blank lines : 2976
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |            138|             49|             47|   0.88|
+   |            .md|             45|             12|             34|   0.29|
+   |          .json|            172|              0|              4|    1.1|
+   |            .js|           3135|            162|            377|     20|
+   |          .lock|          11200|             37|           2371|     72|
+   |          .html|            136|             23|              0|   0.87|
+   |           .log|            682|              2|            120|    4.4|
+   |           .txt|              6|             69|             10|  0.038|
+   |           .css|             49|             10|              7|   0.31|
+   |          .less|             32|              0|              2|   0.20|
+   |          .jade|             32|              0|              4|   0.20|
+   |           .map|              4|              0|              0|  0.026|
+   -------------------------------------------------------------------------
+backend\dbManager\app.js, code is 31, comment is 5, blank is 14.
+backend\dbManager\bin\www, code is 47, comment is 24, blank is 19.
+backend\dbManager\controllers\articleController.js, code is 92, comment is 0, blank is 7.
+backend\dbManager\controllers\commentController.js, code is 94, comment is 0, blank is 7.
+backend\dbManager\controllers\userController.js, code is 112, comment is 0, blank is 6.
+backend\dbManager\db.js, code is 14, comment is 46, blank is 11.
+backend\dbManager\model\articleModel.js, code is 28, comment is 1, blank is 3.
+backend\dbManager\model\commentModel.js, code is 25, comment is 1, blank is 3.
+backend\dbManager\model\userModel.js, code is 39, comment is 0, blank is 2.
+backend\dbManager\package.json, code is 23, comment is 0, blank is 0.
+backend\dbManager\public\stylesheets\style.css, code is 7, comment is 0, blank is 1.
+backend\dbManager\routes\apiRoutes.js, code is 33, comment is 0, blank is 9.
+backend\dbManager\routes\index.js, code is 6, comment is 1, blank is 2.
+backend\dbManager\views\error.jade, code is 5, comment is 0, blank is 1.
+backend\dbManager\views\index.jade, code is 4, comment is 0, blank is 1.
+backend\dbManager\views\layout.jade, code is 7, comment is 0, blank is 0.
+backend\dbManager\yarn-error.log, code is 682, comment is 2, blank is 120.
+backend\dbManager\yarn.lock, code is 964, comment is 2, blank is 167.
+backend\servicesManager\app.js, code is 34, comment is 5, blank is 13.
+backend\servicesManager\bin\www, code is 47, comment is 24, blank is 19.
+backend\servicesManager\package.json, code is 20, comment is 0, blank is 0.
+backend\servicesManager\public\stylesheets\style.css, code is 7, comment is 0, blank is 1.
+backend\servicesManager\routes\articleManager\apiRoutes.js, code is 27, comment is 0, blank is 5.
+backend\servicesManager\routes\articleManager\controllers\articleController.js, code is 89, comment is 0, blank is 5.
+backend\servicesManager\routes\commentManager\apiRoutes.js, code is 27, comment is 0, blank is 5.
+backend\servicesManager\routes\commentManager\controllers\commentController.js, code is 89, comment is 0, blank is 5.
+backend\servicesManager\routes\index.js, code is 6, comment is 1, blank is 2.
+backend\servicesManager\routes\userManager\apiRoutes.js, code is 21, comment is 0, blank is 5.
+backend\servicesManager\routes\userManager\controllers\userController.js, code is 107, comment is 31, blank is 8.
+backend\servicesManager\routes\users.js, code is 6, comment is 1, blank is 2.
+backend\servicesManager\views\error.jade, code is 5, comment is 0, blank is 1.
+backend\servicesManager\views\index.jade, code is 4, comment is 0, blank is 1.
+backend\servicesManager\views\layout.jade, code is 7, comment is 0, blank is 0.
+backend\servicesManager\yarn.lock, code is 623, comment is 2, blank is 109.
+backend\yarn.lock, code is 2, comment is 0, blank is 2.
+README.md, code is 8, comment is 0, blank is 3.
+webclient\.eslintrc, code is 26, comment is 0, blank is 4.
+webclient\.gitignore, code is 18, comment is 1, blank is 5.
+webclient\build.zip, it is a binary file.
+webclient\build\asset-manifest.json, code is 24, comment is 0, blank is 1.
+webclient\build\favicon.ico, it is a binary file.
+webclient\build\index.html, code is 116, comment is 0, blank is 0.
+webclient\build\logo192.png, it is a binary file.
+webclient\build\logo512.png, it is a binary file.
+webclient\build\manifest.json, code is 25, comment is 0, blank is 0.
+webclient\build\precache-manifest.267ffa83a2636bcb2f95a69e47fb8ce0.js, code is 38, comment is 0, blank is 0.
+webclient\build\robots.txt, code is 3, comment is 1, blank is 0.
+webclient\build\service-worker.js, code is 14, comment is 17, blank is 8.
+webclient\build\static\css\2.7946b208.chunk.css, code is 2, comment is 10, blank is 0.
+webclient\build\static\css\2.7946b208.chunk.css.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\2.83f83544.chunk.js, code is 1, comment is 3, blank is 0.
+webclient\build\static\js\2.83f83544.chunk.js.LICENSE.txt, code is 0, comment is 67, blank is 10.
+webclient\build\static\js\2.83f83544.chunk.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\main.80d73cfa.chunk.js, code is 1, comment is 1, blank is 0.
+webclient\build\static\js\main.80d73cfa.chunk.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\runtime-main.4364eacb.js, code is 1, comment is 1, blank is 0.
+webclient\build\static\js\runtime-main.4364eacb.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\media\App.78a4b671.less, code is 16, comment is 0, blank is 1.
+webclient\build\static\media\wall2.e8310d19.jpg, it is a binary file.
+webclient\build\static\media\wall3.7c96a713.jpg, it is a binary file.
+webclient\package.json, code is 45, comment is 0, blank is 3.
+webclient\public\favicon.ico, it is a binary file.
+webclient\public\index.html, code is 20, comment is 23, blank is 0.
+webclient\public\logo192.png, it is a binary file.
+webclient\public\logo512.png, it is a binary file.
+webclient\public\manifest.json, code is 25, comment is 0, blank is 0.
+webclient\public\robots.txt, code is 3, comment is 1, blank is 0.
+webclient\README.md, code is 37, comment is 12, blank is 31.
+webclient\src\api\client\client.js, code is 22, comment is 0, blank is 4.
+webclient\src\api\client\errorParser.js, code is 6, comment is 0, blank is 0.
+webclient\src\api\service\articleService.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\commentService.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\dataParser.js, code is 26, comment is 0, blank is 3.
+webclient\src\api\service\images.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\userService.js, code is 45, comment is 0, blank is 6.
+webclient\src\App.css, code is 33, comment is 0, blank is 5.
+webclient\src\App.js, code is 15, comment is 0, blank is 2.
+webclient\src\App.less, code is 16, comment is 0, blank is 1.
+webclient\src\App.test.js, code is 8, comment is 0, blank is 1.
+webclient\src\components\AppBar\Appbar.js, code is 84, comment is 0, blank is 8.
+webclient\src\components\Article\index.js, code is 9, comment is 0, blank is 0.
+webclient\src\components\ArticleCreator\ArticleForm.js, code is 104, comment is 0, blank is 10.
+webclient\src\components\ArticleCreator\index.js, code is 29, comment is 0, blank is 5.
+webclient\src\components\ArticleCreator\SubjectSelect.js, code is 31, comment is 0, blank is 6.
+webclient\src\components\ArticleList\index.js, code is 31, comment is 0, blank is 4.
+webclient\src\components\ArticleUpdate\index.js, code is 72, comment is 0, blank is 12.
+webclient\src\components\Comment\commentForm.js, code is 79, comment is 0, blank is 8.
+webclient\src\components\Comment\commentList.js, code is 32, comment is 0, blank is 4.
+webclient\src\components\Comment\index.js, code is 81, comment is 0, blank is 8.
+webclient\src\components\CommentManager\DeleteModal.js, code is 35, comment is 0, blank is 7.
+webclient\src\components\CommentManager\index.js, code is 96, comment is 0, blank is 10.
+webclient\src\components\LandingPage\Carusel\BannerCarousel.js, code is 26, comment is 0, blank is 4.
+webclient\src\components\LandingPage\Footer\index.js, code is 60, comment is 0, blank is 3.
+webclient\src\components\LandingPage\Home\Home.js, code is 14, comment is 0, blank is 2.
+webclient\src\components\LandingPage\MiddleSection\index.js, code is 0, comment is 0, blank is 0.
+webclient\src\components\Notification\index.js, code is 24, comment is 0, blank is 6.
+webclient\src\components\SignUp\index.js, code is 129, comment is 0, blank is 11.
+webclient\src\components\UserProfile\imageUpload.js, code is 69, comment is 0, blank is 8.
+webclient\src\components\UserProfile\index.js, code is 48, comment is 0, blank is 6.
+webclient\src\components\UserProfile\profileForm.js, code is 48, comment is 0, blank is 10.
+webclient\src\constans\About.js, code is 4, comment is 0, blank is 0.
+webclient\src\constans\Article.js, code is 14, comment is 0, blank is 2.
+webclient\src\constans\articleUpdate.js, code is 22, comment is 0, blank is 2.
+webclient\src\constans\Comment.js, code is 19, comment is 0, blank is 0.
+webclient\src\constans\header.json, code is 10, comment is 0, blank is 0.
+webclient\src\constans\Login.js, code is 14, comment is 0, blank is 0.
+webclient\src\constans\SginUp.js, code is 15, comment is 4, blank is 1.
+webclient\src\constans\UserTable.js, code is 10, comment is 0, blank is 0.
+webclient\src\images\footerlogo.png, it is a binary file.
+webclient\src\images\logo.png, it is a binary file.
+webclient\src\images\user.jpeg, it is a binary file.
+webclient\src\images\wall2.jpg, it is a binary file.
+webclient\src\images\wall3.jpg, it is a binary file.
+webclient\src\index.js, code is 6, comment is 4, blank is 2.
+webclient\src\routes.js, code is 74, comment is 0, blank is 4.
+webclient\src\serviceWorker.js, code is 95, comment is 31, blank is 15.
+webclient\src\setupTests.js, code is 1, comment is 4, blank is 0.
+webclient\src\utils\index.js, code is 29, comment is 0, blank is 4.
+webclient\src\views\About\index.js, code is 113, comment is 0, blank is 4.
+webclient\src\views\ArticleCard\index.js, code is 28, comment is 0, blank is 8.
+webclient\src\views\Home\AppContent.js, code is 31, comment is 0, blank is 5.
+webclient\src\views\Home\index.js, code is 62, comment is 0, blank is 8.
+webclient\src\views\Store\ArticleDetail.js, code is 118, comment is 0, blank is 7.
+webclient\src\views\Store\index.js, code is 54, comment is 0, blank is 9.
+webclient\src\views\User\Login.js, code is 24, comment is 0, blank is 5.
+webclient\src\views\User\LoginForm.js, code is 88, comment is 0, blank is 9.
+webclient\src\views\UserPanel\index.js, code is 34, comment is 0, blank is 4.
+webclient\user-setting.js, code is 8, comment is 5, blank is 0.
+webclient\yarn.lock, code is 9611, comment is 33, blank is 2093.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2020-06-27 01:15:00
+count workspace : f:\4. Sınıf\Bitirme projesi\Sosyal Blog
+total files : 129
+total code lines : 15631
+total comment lines : 364
+total blank lines : 2976
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .md|             45|             12|             34|   0.29|
+   |          .lock|          11200|             37|           2371|     72|
+   |               |            138|             49|             47|   0.88|
+   |          .json|            172|              0|              4|    1.1|
+   |            .js|           3135|            162|            377|     20|
+   |           .log|            682|              2|            120|    4.4|
+   |          .html|            136|             23|              0|   0.87|
+   |           .txt|              6|             69|             10|  0.038|
+   |           .css|             49|             10|              7|   0.31|
+   |          .less|             32|              0|              2|   0.20|
+   |          .jade|             32|              0|              4|   0.20|
+   |           .map|              4|              0|              0|  0.026|
+   -------------------------------------------------------------------------
+backend\dbManager\app.js, code is 31, comment is 5, blank is 14.
+backend\dbManager\bin\www, code is 47, comment is 24, blank is 19.
+backend\dbManager\controllers\articleController.js, code is 92, comment is 0, blank is 7.
+backend\dbManager\controllers\commentController.js, code is 94, comment is 0, blank is 7.
+backend\dbManager\controllers\userController.js, code is 112, comment is 0, blank is 6.
+backend\dbManager\db.js, code is 14, comment is 46, blank is 11.
+backend\dbManager\model\articleModel.js, code is 28, comment is 1, blank is 3.
+backend\dbManager\model\commentModel.js, code is 25, comment is 1, blank is 3.
+backend\dbManager\model\userModel.js, code is 39, comment is 0, blank is 2.
+backend\dbManager\package.json, code is 23, comment is 0, blank is 0.
+backend\dbManager\public\stylesheets\style.css, code is 7, comment is 0, blank is 1.
+backend\dbManager\routes\apiRoutes.js, code is 33, comment is 0, blank is 9.
+backend\dbManager\routes\index.js, code is 6, comment is 1, blank is 2.
+backend\dbManager\views\error.jade, code is 5, comment is 0, blank is 1.
+backend\dbManager\views\index.jade, code is 4, comment is 0, blank is 1.
+backend\dbManager\views\layout.jade, code is 7, comment is 0, blank is 0.
+backend\dbManager\yarn-error.log, code is 682, comment is 2, blank is 120.
+backend\dbManager\yarn.lock, code is 964, comment is 2, blank is 167.
+backend\servicesManager\app.js, code is 34, comment is 5, blank is 13.
+backend\servicesManager\bin\www, code is 47, comment is 24, blank is 19.
+backend\servicesManager\package.json, code is 20, comment is 0, blank is 0.
+backend\servicesManager\public\stylesheets\style.css, code is 7, comment is 0, blank is 1.
+backend\servicesManager\routes\articleManager\apiRoutes.js, code is 27, comment is 0, blank is 5.
+backend\servicesManager\routes\articleManager\controllers\articleController.js, code is 89, comment is 0, blank is 5.
+backend\servicesManager\routes\commentManager\apiRoutes.js, code is 27, comment is 0, blank is 5.
+backend\servicesManager\routes\commentManager\controllers\commentController.js, code is 89, comment is 0, blank is 5.
+backend\servicesManager\routes\index.js, code is 6, comment is 1, blank is 2.
+backend\servicesManager\routes\userManager\apiRoutes.js, code is 21, comment is 0, blank is 5.
+backend\servicesManager\routes\userManager\controllers\userController.js, code is 107, comment is 31, blank is 8.
+backend\servicesManager\routes\users.js, code is 6, comment is 1, blank is 2.
+backend\servicesManager\views\error.jade, code is 5, comment is 0, blank is 1.
+backend\servicesManager\views\index.jade, code is 4, comment is 0, blank is 1.
+backend\servicesManager\views\layout.jade, code is 7, comment is 0, blank is 0.
+backend\servicesManager\yarn.lock, code is 623, comment is 2, blank is 109.
+backend\yarn.lock, code is 2, comment is 0, blank is 2.
+README.md, code is 8, comment is 0, blank is 3.
+webclient\.eslintrc, code is 26, comment is 0, blank is 4.
+webclient\.gitignore, code is 18, comment is 1, blank is 5.
+webclient\build.zip, it is a binary file.
+webclient\build\asset-manifest.json, code is 24, comment is 0, blank is 1.
+webclient\build\favicon.ico, it is a binary file.
+webclient\build\index.html, code is 116, comment is 0, blank is 0.
+webclient\build\logo192.png, it is a binary file.
+webclient\build\logo512.png, it is a binary file.
+webclient\build\manifest.json, code is 25, comment is 0, blank is 0.
+webclient\build\precache-manifest.267ffa83a2636bcb2f95a69e47fb8ce0.js, code is 38, comment is 0, blank is 0.
+webclient\build\robots.txt, code is 3, comment is 1, blank is 0.
+webclient\build\service-worker.js, code is 14, comment is 17, blank is 8.
+webclient\build\static\css\2.7946b208.chunk.css, code is 2, comment is 10, blank is 0.
+webclient\build\static\css\2.7946b208.chunk.css.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\2.83f83544.chunk.js, code is 1, comment is 3, blank is 0.
+webclient\build\static\js\2.83f83544.chunk.js.LICENSE.txt, code is 0, comment is 67, blank is 10.
+webclient\build\static\js\2.83f83544.chunk.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\main.80d73cfa.chunk.js, code is 1, comment is 1, blank is 0.
+webclient\build\static\js\main.80d73cfa.chunk.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\runtime-main.4364eacb.js, code is 1, comment is 1, blank is 0.
+webclient\build\static\js\runtime-main.4364eacb.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\media\App.78a4b671.less, code is 16, comment is 0, blank is 1.
+webclient\build\static\media\wall2.e8310d19.jpg, it is a binary file.
+webclient\build\static\media\wall3.7c96a713.jpg, it is a binary file.
+webclient\package.json, code is 45, comment is 0, blank is 3.
+webclient\public\favicon.ico, it is a binary file.
+webclient\public\index.html, code is 20, comment is 23, blank is 0.
+webclient\public\logo192.png, it is a binary file.
+webclient\public\logo512.png, it is a binary file.
+webclient\public\manifest.json, code is 25, comment is 0, blank is 0.
+webclient\public\robots.txt, code is 3, comment is 1, blank is 0.
+webclient\README.md, code is 37, comment is 12, blank is 31.
+webclient\src\api\client\client.js, code is 22, comment is 0, blank is 4.
+webclient\src\api\client\errorParser.js, code is 6, comment is 0, blank is 0.
+webclient\src\api\service\articleService.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\commentService.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\dataParser.js, code is 26, comment is 0, blank is 3.
+webclient\src\api\service\images.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\userService.js, code is 45, comment is 0, blank is 6.
+webclient\src\App.css, code is 33, comment is 0, blank is 5.
+webclient\src\App.js, code is 15, comment is 0, blank is 2.
+webclient\src\App.less, code is 16, comment is 0, blank is 1.
+webclient\src\App.test.js, code is 8, comment is 0, blank is 1.
+webclient\src\components\AppBar\Appbar.js, code is 84, comment is 0, blank is 8.
+webclient\src\components\Article\index.js, code is 9, comment is 0, blank is 0.
+webclient\src\components\ArticleCreator\ArticleForm.js, code is 104, comment is 0, blank is 10.
+webclient\src\components\ArticleCreator\index.js, code is 29, comment is 0, blank is 5.
+webclient\src\components\ArticleCreator\SubjectSelect.js, code is 31, comment is 0, blank is 6.
+webclient\src\components\ArticleList\index.js, code is 31, comment is 0, blank is 4.
+webclient\src\components\ArticleUpdate\index.js, code is 72, comment is 0, blank is 12.
+webclient\src\components\Comment\commentForm.js, code is 79, comment is 0, blank is 8.
+webclient\src\components\Comment\commentList.js, code is 32, comment is 0, blank is 4.
+webclient\src\components\Comment\index.js, code is 81, comment is 0, blank is 8.
+webclient\src\components\CommentManager\DeleteModal.js, code is 35, comment is 0, blank is 7.
+webclient\src\components\CommentManager\index.js, code is 96, comment is 0, blank is 10.
+webclient\src\components\LandingPage\Carusel\BannerCarousel.js, code is 26, comment is 0, blank is 4.
+webclient\src\components\LandingPage\Footer\index.js, code is 60, comment is 0, blank is 3.
+webclient\src\components\LandingPage\Home\Home.js, code is 14, comment is 0, blank is 2.
+webclient\src\components\LandingPage\MiddleSection\index.js, code is 0, comment is 0, blank is 0.
+webclient\src\components\Notification\index.js, code is 24, comment is 0, blank is 6.
+webclient\src\components\SignUp\index.js, code is 129, comment is 0, blank is 11.
+webclient\src\components\UserProfile\imageUpload.js, code is 69, comment is 0, blank is 8.
+webclient\src\components\UserProfile\index.js, code is 48, comment is 0, blank is 6.
+webclient\src\components\UserProfile\profileForm.js, code is 48, comment is 0, blank is 10.
+webclient\src\constans\About.js, code is 4, comment is 0, blank is 0.
+webclient\src\constans\Article.js, code is 14, comment is 0, blank is 2.
+webclient\src\constans\articleUpdate.js, code is 22, comment is 0, blank is 2.
+webclient\src\constans\Comment.js, code is 19, comment is 0, blank is 0.
+webclient\src\constans\header.json, code is 10, comment is 0, blank is 0.
+webclient\src\constans\Login.js, code is 14, comment is 0, blank is 0.
+webclient\src\constans\SginUp.js, code is 15, comment is 4, blank is 1.
+webclient\src\constans\UserTable.js, code is 10, comment is 0, blank is 0.
+webclient\src\images\footerlogo.png, it is a binary file.
+webclient\src\images\logo.png, it is a binary file.
+webclient\src\images\user.jpeg, it is a binary file.
+webclient\src\images\wall2.jpg, it is a binary file.
+webclient\src\images\wall3.jpg, it is a binary file.
+webclient\src\index.js, code is 6, comment is 4, blank is 2.
+webclient\src\routes.js, code is 74, comment is 0, blank is 4.
+webclient\src\serviceWorker.js, code is 95, comment is 31, blank is 15.
+webclient\src\setupTests.js, code is 1, comment is 4, blank is 0.
+webclient\src\utils\index.js, code is 29, comment is 0, blank is 4.
+webclient\src\views\About\index.js, code is 113, comment is 0, blank is 4.
+webclient\src\views\ArticleCard\index.js, code is 28, comment is 0, blank is 8.
+webclient\src\views\Home\AppContent.js, code is 31, comment is 0, blank is 5.
+webclient\src\views\Home\index.js, code is 62, comment is 0, blank is 8.
+webclient\src\views\Store\ArticleDetail.js, code is 118, comment is 0, blank is 7.
+webclient\src\views\Store\index.js, code is 54, comment is 0, blank is 9.
+webclient\src\views\User\Login.js, code is 24, comment is 0, blank is 5.
+webclient\src\views\User\LoginForm.js, code is 88, comment is 0, blank is 9.
+webclient\src\views\UserPanel\index.js, code is 34, comment is 0, blank is 4.
+webclient\user-setting.js, code is 8, comment is 5, blank is 0.
+webclient\yarn.lock, code is 9611, comment is 33, blank is 2093.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2020-06-27 01:15:26
+count workspace : f:\4. Sınıf\Bitirme projesi\Sosyal Blog
+total files : 129
+total code lines : 15631
+total comment lines : 364
+total blank lines : 2976
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .md|             45|             12|             34|   0.29|
+   |               |            138|             49|             47|   0.88|
+   |          .json|            172|              0|              4|    1.1|
+   |          .lock|          11200|             37|           2371|     72|
+   |            .js|           3135|            162|            377|     20|
+   |           .log|            682|              2|            120|    4.4|
+   |          .jade|             32|              0|              4|   0.20|
+   |           .css|             49|             10|              7|   0.31|
+   |          .html|            136|             23|              0|   0.87|
+   |           .txt|              6|             69|             10|  0.038|
+   |          .less|             32|              0|              2|   0.20|
+   |           .map|              4|              0|              0|  0.026|
+   -------------------------------------------------------------------------
+backend\dbManager\app.js, code is 31, comment is 5, blank is 14.
+backend\dbManager\bin\www, code is 47, comment is 24, blank is 19.
+backend\dbManager\controllers\articleController.js, code is 92, comment is 0, blank is 7.
+backend\dbManager\controllers\commentController.js, code is 94, comment is 0, blank is 7.
+backend\dbManager\controllers\userController.js, code is 112, comment is 0, blank is 6.
+backend\dbManager\db.js, code is 14, comment is 46, blank is 11.
+backend\dbManager\model\articleModel.js, code is 28, comment is 1, blank is 3.
+backend\dbManager\model\commentModel.js, code is 25, comment is 1, blank is 3.
+backend\dbManager\model\userModel.js, code is 39, comment is 0, blank is 2.
+backend\dbManager\package.json, code is 23, comment is 0, blank is 0.
+backend\dbManager\public\stylesheets\style.css, code is 7, comment is 0, blank is 1.
+backend\dbManager\routes\apiRoutes.js, code is 33, comment is 0, blank is 9.
+backend\dbManager\routes\index.js, code is 6, comment is 1, blank is 2.
+backend\dbManager\views\error.jade, code is 5, comment is 0, blank is 1.
+backend\dbManager\views\index.jade, code is 4, comment is 0, blank is 1.
+backend\dbManager\views\layout.jade, code is 7, comment is 0, blank is 0.
+backend\dbManager\yarn-error.log, code is 682, comment is 2, blank is 120.
+backend\dbManager\yarn.lock, code is 964, comment is 2, blank is 167.
+backend\servicesManager\app.js, code is 34, comment is 5, blank is 13.
+backend\servicesManager\bin\www, code is 47, comment is 24, blank is 19.
+backend\servicesManager\package.json, code is 20, comment is 0, blank is 0.
+backend\servicesManager\public\stylesheets\style.css, code is 7, comment is 0, blank is 1.
+backend\servicesManager\routes\articleManager\apiRoutes.js, code is 27, comment is 0, blank is 5.
+backend\servicesManager\routes\articleManager\controllers\articleController.js, code is 89, comment is 0, blank is 5.
+backend\servicesManager\routes\commentManager\apiRoutes.js, code is 27, comment is 0, blank is 5.
+backend\servicesManager\routes\commentManager\controllers\commentController.js, code is 89, comment is 0, blank is 5.
+backend\servicesManager\routes\index.js, code is 6, comment is 1, blank is 2.
+backend\servicesManager\routes\userManager\apiRoutes.js, code is 21, comment is 0, blank is 5.
+backend\servicesManager\routes\userManager\controllers\userController.js, code is 107, comment is 31, blank is 8.
+backend\servicesManager\routes\users.js, code is 6, comment is 1, blank is 2.
+backend\servicesManager\views\error.jade, code is 5, comment is 0, blank is 1.
+backend\servicesManager\views\index.jade, code is 4, comment is 0, blank is 1.
+backend\servicesManager\views\layout.jade, code is 7, comment is 0, blank is 0.
+backend\servicesManager\yarn.lock, code is 623, comment is 2, blank is 109.
+backend\yarn.lock, code is 2, comment is 0, blank is 2.
+README.md, code is 8, comment is 0, blank is 3.
+webclient\.eslintrc, code is 26, comment is 0, blank is 4.
+webclient\.gitignore, code is 18, comment is 1, blank is 5.
+webclient\build.zip, it is a binary file.
+webclient\build\asset-manifest.json, code is 24, comment is 0, blank is 1.
+webclient\build\favicon.ico, it is a binary file.
+webclient\build\index.html, code is 116, comment is 0, blank is 0.
+webclient\build\logo192.png, it is a binary file.
+webclient\build\logo512.png, it is a binary file.
+webclient\build\manifest.json, code is 25, comment is 0, blank is 0.
+webclient\build\precache-manifest.267ffa83a2636bcb2f95a69e47fb8ce0.js, code is 38, comment is 0, blank is 0.
+webclient\build\robots.txt, code is 3, comment is 1, blank is 0.
+webclient\build\service-worker.js, code is 14, comment is 17, blank is 8.
+webclient\build\static\css\2.7946b208.chunk.css, code is 2, comment is 10, blank is 0.
+webclient\build\static\css\2.7946b208.chunk.css.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\2.83f83544.chunk.js, code is 1, comment is 3, blank is 0.
+webclient\build\static\js\2.83f83544.chunk.js.LICENSE.txt, code is 0, comment is 67, blank is 10.
+webclient\build\static\js\2.83f83544.chunk.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\main.80d73cfa.chunk.js, code is 1, comment is 1, blank is 0.
+webclient\build\static\js\main.80d73cfa.chunk.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\js\runtime-main.4364eacb.js, code is 1, comment is 1, blank is 0.
+webclient\build\static\js\runtime-main.4364eacb.js.map, code is 1, comment is 0, blank is 0.
+webclient\build\static\media\App.78a4b671.less, code is 16, comment is 0, blank is 1.
+webclient\build\static\media\wall2.e8310d19.jpg, it is a binary file.
+webclient\build\static\media\wall3.7c96a713.jpg, it is a binary file.
+webclient\package.json, code is 45, comment is 0, blank is 3.
+webclient\public\favicon.ico, it is a binary file.
+webclient\public\index.html, code is 20, comment is 23, blank is 0.
+webclient\public\logo192.png, it is a binary file.
+webclient\public\logo512.png, it is a binary file.
+webclient\public\manifest.json, code is 25, comment is 0, blank is 0.
+webclient\public\robots.txt, code is 3, comment is 1, blank is 0.
+webclient\README.md, code is 37, comment is 12, blank is 31.
+webclient\src\api\client\client.js, code is 22, comment is 0, blank is 4.
+webclient\src\api\client\errorParser.js, code is 6, comment is 0, blank is 0.
+webclient\src\api\service\articleService.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\commentService.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\dataParser.js, code is 26, comment is 0, blank is 3.
+webclient\src\api\service\images.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\userService.js, code is 45, comment is 0, blank is 6.
+webclient\src\App.css, code is 33, comment is 0, blank is 5.
+webclient\src\App.js, code is 15, comment is 0, blank is 2.
+webclient\src\App.less, code is 16, comment is 0, blank is 1.
+webclient\src\App.test.js, code is 8, comment is 0, blank is 1.
+webclient\src\components\AppBar\Appbar.js, code is 84, comment is 0, blank is 8.
+webclient\src\components\Article\index.js, code is 9, comment is 0, blank is 0.
+webclient\src\components\ArticleCreator\ArticleForm.js, code is 104, comment is 0, blank is 10.
+webclient\src\components\ArticleCreator\index.js, code is 29, comment is 0, blank is 5.
+webclient\src\components\ArticleCreator\SubjectSelect.js, code is 31, comment is 0, blank is 6.
+webclient\src\components\ArticleList\index.js, code is 31, comment is 0, blank is 4.
+webclient\src\components\ArticleUpdate\index.js, code is 72, comment is 0, blank is 12.
+webclient\src\components\Comment\commentForm.js, code is 79, comment is 0, blank is 8.
+webclient\src\components\Comment\commentList.js, code is 32, comment is 0, blank is 4.
+webclient\src\components\Comment\index.js, code is 81, comment is 0, blank is 8.
+webclient\src\components\CommentManager\DeleteModal.js, code is 35, comment is 0, blank is 7.
+webclient\src\components\CommentManager\index.js, code is 96, comment is 0, blank is 10.
+webclient\src\components\LandingPage\Carusel\BannerCarousel.js, code is 26, comment is 0, blank is 4.
+webclient\src\components\LandingPage\Footer\index.js, code is 60, comment is 0, blank is 3.
+webclient\src\components\LandingPage\Home\Home.js, code is 14, comment is 0, blank is 2.
+webclient\src\components\LandingPage\MiddleSection\index.js, code is 0, comment is 0, blank is 0.
+webclient\src\components\Notification\index.js, code is 24, comment is 0, blank is 6.
+webclient\src\components\SignUp\index.js, code is 129, comment is 0, blank is 11.
+webclient\src\components\UserProfile\imageUpload.js, code is 69, comment is 0, blank is 8.
+webclient\src\components\UserProfile\index.js, code is 48, comment is 0, blank is 6.
+webclient\src\components\UserProfile\profileForm.js, code is 48, comment is 0, blank is 10.
+webclient\src\constans\About.js, code is 4, comment is 0, blank is 0.
+webclient\src\constans\Article.js, code is 14, comment is 0, blank is 2.
+webclient\src\constans\articleUpdate.js, code is 22, comment is 0, blank is 2.
+webclient\src\constans\Comment.js, code is 19, comment is 0, blank is 0.
+webclient\src\constans\header.json, code is 10, comment is 0, blank is 0.
+webclient\src\constans\Login.js, code is 14, comment is 0, blank is 0.
+webclient\src\constans\SginUp.js, code is 15, comment is 4, blank is 1.
+webclient\src\constans\UserTable.js, code is 10, comment is 0, blank is 0.
+webclient\src\images\footerlogo.png, it is a binary file.
+webclient\src\images\logo.png, it is a binary file.
+webclient\src\images\user.jpeg, it is a binary file.
+webclient\src\images\wall2.jpg, it is a binary file.
+webclient\src\images\wall3.jpg, it is a binary file.
+webclient\src\index.js, code is 6, comment is 4, blank is 2.
+webclient\src\routes.js, code is 74, comment is 0, blank is 4.
+webclient\src\serviceWorker.js, code is 95, comment is 31, blank is 15.
+webclient\src\setupTests.js, code is 1, comment is 4, blank is 0.
+webclient\src\utils\index.js, code is 29, comment is 0, blank is 4.
+webclient\src\views\About\index.js, code is 113, comment is 0, blank is 4.
+webclient\src\views\ArticleCard\index.js, code is 28, comment is 0, blank is 8.
+webclient\src\views\Home\AppContent.js, code is 31, comment is 0, blank is 5.
+webclient\src\views\Home\index.js, code is 62, comment is 0, blank is 8.
+webclient\src\views\Store\ArticleDetail.js, code is 118, comment is 0, blank is 7.
+webclient\src\views\Store\index.js, code is 54, comment is 0, blank is 9.
+webclient\src\views\User\Login.js, code is 24, comment is 0, blank is 5.
+webclient\src\views\User\LoginForm.js, code is 88, comment is 0, blank is 9.
+webclient\src\views\UserPanel\index.js, code is 34, comment is 0, blank is 4.
+webclient\user-setting.js, code is 8, comment is 5, blank is 0.
+webclient\yarn.lock, code is 9611, comment is 33, blank is 2093.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2020-06-27 01:22:13
+count workspace : f:\4. Sınıf\Bitirme projesi\Sosyal Blog
+total files : 76
+total code lines : 3135
+total comment lines : 162
+total blank lines : 377
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .js|           3135|            162|            377| 1.0e+2|
+   -------------------------------------------------------------------------
+backend\dbManager\app.js, code is 31, comment is 5, blank is 14.
+backend\dbManager\controllers\articleController.js, code is 92, comment is 0, blank is 7.
+backend\dbManager\controllers\commentController.js, code is 94, comment is 0, blank is 7.
+backend\dbManager\controllers\userController.js, code is 112, comment is 0, blank is 6.
+backend\dbManager\db.js, code is 14, comment is 46, blank is 11.
+backend\dbManager\model\articleModel.js, code is 28, comment is 1, blank is 3.
+backend\dbManager\model\commentModel.js, code is 25, comment is 1, blank is 3.
+backend\dbManager\model\userModel.js, code is 39, comment is 0, blank is 2.
+backend\dbManager\routes\apiRoutes.js, code is 33, comment is 0, blank is 9.
+backend\dbManager\routes\index.js, code is 6, comment is 1, blank is 2.
+backend\servicesManager\app.js, code is 34, comment is 5, blank is 13.
+backend\servicesManager\routes\articleManager\apiRoutes.js, code is 27, comment is 0, blank is 5.
+backend\servicesManager\routes\articleManager\controllers\articleController.js, code is 89, comment is 0, blank is 5.
+backend\servicesManager\routes\commentManager\apiRoutes.js, code is 27, comment is 0, blank is 5.
+backend\servicesManager\routes\commentManager\controllers\commentController.js, code is 89, comment is 0, blank is 5.
+backend\servicesManager\routes\index.js, code is 6, comment is 1, blank is 2.
+backend\servicesManager\routes\userManager\apiRoutes.js, code is 21, comment is 0, blank is 5.
+backend\servicesManager\routes\userManager\controllers\userController.js, code is 107, comment is 31, blank is 8.
+backend\servicesManager\routes\users.js, code is 6, comment is 1, blank is 2.
+webclient\build\precache-manifest.267ffa83a2636bcb2f95a69e47fb8ce0.js, code is 38, comment is 0, blank is 0.
+webclient\build\service-worker.js, code is 14, comment is 17, blank is 8.
+webclient\build\static\js\2.83f83544.chunk.js, code is 1, comment is 3, blank is 0.
+webclient\build\static\js\main.80d73cfa.chunk.js, code is 1, comment is 1, blank is 0.
+webclient\build\static\js\runtime-main.4364eacb.js, code is 1, comment is 1, blank is 0.
+webclient\src\api\client\client.js, code is 22, comment is 0, blank is 4.
+webclient\src\api\client\errorParser.js, code is 6, comment is 0, blank is 0.
+webclient\src\api\service\articleService.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\commentService.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\dataParser.js, code is 26, comment is 0, blank is 3.
+webclient\src\api\service\images.js, code is 38, comment is 0, blank is 6.
+webclient\src\api\service\userService.js, code is 45, comment is 0, blank is 6.
+webclient\src\App.js, code is 15, comment is 0, blank is 2.
+webclient\src\App.test.js, code is 8, comment is 0, blank is 1.
+webclient\src\components\AppBar\Appbar.js, code is 84, comment is 0, blank is 8.
+webclient\src\components\Article\index.js, code is 9, comment is 0, blank is 0.
+webclient\src\components\ArticleCreator\ArticleForm.js, code is 104, comment is 0, blank is 10.
+webclient\src\components\ArticleCreator\index.js, code is 29, comment is 0, blank is 5.
+webclient\src\components\ArticleCreator\SubjectSelect.js, code is 31, comment is 0, blank is 6.
+webclient\src\components\ArticleList\index.js, code is 31, comment is 0, blank is 4.
+webclient\src\components\ArticleUpdate\index.js, code is 72, comment is 0, blank is 12.
+webclient\src\components\Comment\commentForm.js, code is 79, comment is 0, blank is 8.
+webclient\src\components\Comment\commentList.js, code is 32, comment is 0, blank is 4.
+webclient\src\components\Comment\index.js, code is 81, comment is 0, blank is 8.
+webclient\src\components\CommentManager\DeleteModal.js, code is 35, comment is 0, blank is 7.
+webclient\src\components\CommentManager\index.js, code is 96, comment is 0, blank is 10.
+webclient\src\components\LandingPage\Carusel\BannerCarousel.js, code is 26, comment is 0, blank is 4.
+webclient\src\components\LandingPage\Footer\index.js, code is 60, comment is 0, blank is 3.
+webclient\src\components\LandingPage\Home\Home.js, code is 14, comment is 0, blank is 2.
+webclient\src\components\LandingPage\MiddleSection\index.js, code is 0, comment is 0, blank is 0.
+webclient\src\components\Notification\index.js, code is 24, comment is 0, blank is 6.
+webclient\src\components\SignUp\index.js, code is 129, comment is 0, blank is 11.
+webclient\src\components\UserProfile\imageUpload.js, code is 69, comment is 0, blank is 8.
+webclient\src\components\UserProfile\index.js, code is 48, comment is 0, blank is 6.
+webclient\src\components\UserProfile\profileForm.js, code is 48, comment is 0, blank is 10.
+webclient\src\constans\About.js, code is 4, comment is 0, blank is 0.
+webclient\src\constans\Article.js, code is 14, comment is 0, blank is 2.
+webclient\src\constans\articleUpdate.js, code is 22, comment is 0, blank is 2.
+webclient\src\constans\Comment.js, code is 19, comment is 0, blank is 0.
+webclient\src\constans\Login.js, code is 14, comment is 0, blank is 0.
+webclient\src\constans\SginUp.js, code is 15, comment is 4, blank is 1.
+webclient\src\constans\UserTable.js, code is 10, comment is 0, blank is 0.
+webclient\src\index.js, code is 6, comment is 4, blank is 2.
+webclient\src\routes.js, code is 74, comment is 0, blank is 4.
+webclient\src\serviceWorker.js, code is 95, comment is 31, blank is 15.
+webclient\src\setupTests.js, code is 1, comment is 4, blank is 0.
+webclient\src\utils\index.js, code is 29, comment is 0, blank is 4.
+webclient\src\views\About\index.js, code is 113, comment is 0, blank is 4.
+webclient\src\views\ArticleCard\index.js, code is 28, comment is 0, blank is 8.
+webclient\src\views\Home\AppContent.js, code is 31, comment is 0, blank is 5.
+webclient\src\views\Home\index.js, code is 62, comment is 0, blank is 8.
+webclient\src\views\Store\ArticleDetail.js, code is 118, comment is 0, blank is 7.
+webclient\src\views\Store\index.js, code is 54, comment is 0, blank is 9.
+webclient\src\views\User\Login.js, code is 24, comment is 0, blank is 5.
+webclient\src\views\User\LoginForm.js, code is 88, comment is 0, blank is 9.
+webclient\src\views\UserPanel\index.js, code is 34, comment is 0, blank is 4.
+webclient\user-setting.js, code is 8, comment is 5, blank is 0.
+===============================================================================

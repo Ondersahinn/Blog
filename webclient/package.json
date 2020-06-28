@@ -1,6 +1,10 @@
 {
   "name": "webclient",
   "version": "0.1.0",
+  "permissions": [
+    "http://www.google.com/",
+    "https://www.google.com/"
+  ],
   "homepage": "",
   "private": true,
   "dependencies": {
