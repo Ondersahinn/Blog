@@ -11,6 +11,7 @@ class PicturesWall extends React.Component {
     previewImage: '',
     previewTitle: '',
     fileList: [],
+    loading:false,
   };
 
   handleCancel = () => this.setState({ previewVisible: false });
@@ -31,7 +32,7 @@ class PicturesWall extends React.Component {
       const imageUrl = await getBase64(fileList[0].originFileObj);
       localStorage.setItem('userImageUrl', imageUrl);
     }
-    this.setState({ fileList });
+    this.setState({ fileList, loading:true });
   }
 
 

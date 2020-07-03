@@ -10,6 +10,7 @@ class SubjectSelect extends React.Component {
   };
 
   handleChange = selectedItems => {
+    this.props.handleChange(selectedItems);
     this.setState({ selectedItems });
   };
 

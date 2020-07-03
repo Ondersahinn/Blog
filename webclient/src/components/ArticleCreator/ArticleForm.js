@@ -1,15 +1,15 @@
 import React from 'react';
-import { Form, Input, Button } from 'antd';
+import { Form, Input, Button, message } from 'antd';
 import { EditorState, convertToRaw, ContentState } from 'draft-js';
 import SelectSubject from './SubjectSelect';
 import draftToHtml from 'draftjs-to-html';
 import htmlToDraft from 'html-to-draftjs';
 import { Editor } from 'react-draft-wysiwyg';
-import '../../../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 import { layout, validateMessages } from '../../constans/Article';
-import '../../App.less';
 import { formatDate } from '../../utils';
-import { sub } from 'date-fns';
+import '../../App.less';
+import '../../../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+
 
 class ArticleForm extends React.Component {
   constructor(props) {
@@ -43,31 +43,34 @@ class ArticleForm extends React.Component {
 
   createData = async () => {
     const createDateTime = formatDate(new Date());
-    const { title, description, subject } = this.state;
+    const { title, description, selectSubject } = this.state;
     const ownerId = JSON.parse(localStorage.getItem('userId'));
     const descriptionToHtml = draftToHtml(
       convertToRaw(description.getCurrentContent())
     );
-    const data = {
-      subject,
-      title,
-      description: descriptionToHtml,
-      ownerId,
-      createDateTime,
-    };
-    this.props.submitButtonClick(data);
+    if(selectSubject.length <= 0 || descriptionToHtml.length <= 100){
+      message.error("Description veya subject boş geçilemez");
+    }else{
+      const data = {
+        subject: selectSubject,
+        title,
+        description: descriptionToHtml,
+        ownerId,
+        createDateTime,
+      };
+      this.props.submitButtonClick(data);
+    }
+    
   };
 
   handleChange(value) {
-    const subject = [];
-    subject.push(value);
-   this.setState({selectSubject:subject})
+   this.setState({selectSubject:value})
   }
 
 
 
   render() {
-    const { description, title, subject, selectSubject } = this.state;
+    const { description} = this.state;
     return (
       <div>
         <Form
@@ -86,9 +89,8 @@ class ArticleForm extends React.Component {
           <Form.Item
             name={['article', 'subject']}
             label='Konu'
-            rules={[{ required: true }]}
           >
-          <SelectSubject />
+          <SelectSubject handleChange={(value) =>this.handleChange(value)} />
           </Form.Item>
           <Form.Item name={['article', 'introduction']} label='Description'>
             <Editor
